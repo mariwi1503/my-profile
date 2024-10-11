@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { NavMenu } from "../constant";
+import { navMenu } from "../constant";
 
 function NavbarTop({ setCover }) {
   const [isVisible, setIsVisible] = useState(true);
@@ -25,11 +25,11 @@ function NavbarTop({ setCover }) {
   return (
     <nav
       className={`fixed top-5 left-1/2 transform -translate-x-1/2 bg-gray-200 shadow-lg text-lg font-semibold text-primary px-10 py-2 rounded-lg transition-transform duration-300 z-50 ${
-        isVisible ? "translate-y-0" : "-translate-y-40" // Mengubah translate-y agar lebih jauh
+        isVisible ? "translate-y-0" : "-translate-y-40"
       } hidden md:block`}
     >
       <div className="flex gap-7">
-        {NavMenu.map((menu, index) => (
+        {navMenu.map((menu, index) => (
           <a
             key={index}
             href={`#${menu.link}`}

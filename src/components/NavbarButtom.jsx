@@ -1,10 +1,10 @@
-import { NavMenu } from "../constant";
+import { navMenu } from "../constant";
 
 function NavbarButtom({ setCover }) {
   return (
     <div className="fixed bottom-0 w-full bg-gray-200 block md:hidden text-primary h-12">
       <div className="flex gap-2 justify-evenly items-center h-full font-bold">
-        {NavMenu.map((menu, index) => (
+        {navMenu.map((menu, index) => (
           <a
             key={index}
             href={`#${menu.link}`}
