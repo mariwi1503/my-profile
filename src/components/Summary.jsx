@@ -2,7 +2,10 @@ import VideoStory from "./VideoStory";
 
 function Summary() {
   return (
-    <div className="flex flex-col mx-auto pb-10 md:flex-row items-center">
+    <div
+      id="summary"
+      className="flex flex-col mx-auto pb-10 md:flex-row items-center"
+    >
       {/* summary container */}
       <div className="mt-8 md:mt-24 px-5 w-full md:w-2/3">
         <h3 className="text-3xl sm:text-4xl font-medium">Summary</h3>

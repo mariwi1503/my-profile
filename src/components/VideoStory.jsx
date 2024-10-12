@@ -1,14 +1,4 @@
-import { useRef, useEffect } from "react";
-
 function VideoStory() {
-  const videoRef = useRef(null);
-  useEffect(() => {
-    // Mengatur volume setelah komponen ter-mount
-    if (videoRef.current) {
-      videoRef.current.volume = 5;
-    }
-  }, []);
-
   return (
     <div className="p-5 ">
       <video
