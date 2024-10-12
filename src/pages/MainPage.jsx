@@ -3,6 +3,7 @@ import NavbarButtom from "../components/NavbarButtom";
 import Summary from "../components/Summary";
 import Stacks from "../components/Stacks";
 import Experience from "../components/Experience";
+import Portfolio from "../components/Portfolio";
 
 function MainPage({ setCover }) {
   return (
@@ -11,6 +12,7 @@ function MainPage({ setCover }) {
       <Summary />
       <Stacks />
       <Experience />
+      <Portfolio />
       <NavbarButtom setCover={setCover} />
     </div>
   );

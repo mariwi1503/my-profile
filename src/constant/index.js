@@ -15,6 +15,10 @@ export const navMenu = [
     title: "Experience",
     link: "experience",
   },
+  {
+    title: "Portfolio",
+    link: "portfolio",
+  },
 ];
 
 export const stackItem = [
@@ -43,6 +47,10 @@ export const stackItem = [
     image: "icon/postgres.png",
   },
   {
+    name: "Redis",
+    image: "icon/redis.png",
+  },
+  {
     name: "Sequelize",
     image: "icon/sequelize.png",
   },
@@ -53,6 +61,10 @@ export const stackItem = [
   {
     name: "React",
     image: "icon/react.png",
+  },
+  {
+    name: "Vite",
+    image: "icon/vite.png",
   },
   {
     name: "HTML",
@@ -94,7 +106,7 @@ export const experienceList = [
   {
     logo: "experience/super.jpeg",
     company: "Aplikasi Super (YC W18)",
-    role: "Backend Developer",
+    role: "Backend Engineer",
     job: "Fulltime",
     start: "Dec 2021",
     end: "Jun 2022",
@@ -112,5 +124,33 @@ export const experienceList = [
     location: "Remote",
     city: "Mataram",
     country: "Indonesia",
+  },
+];
+
+export const portfolioList = [
+  {
+    name: "SIRI",
+    imagePath: "portfolio/siri.png",
+    description: "",
+  },
+  {
+    name: "CoSIRI",
+    imagePath: "portfolio/cosiri.png",
+    description: "",
+  },
+  {
+    name: "Hulu Cash",
+    imagePath: "portfolio/hulucash.png",
+    description: "",
+  },
+  {
+    name: "Aplikasi Super",
+    imagePath: "portfolio/super.png",
+    description: "",
+  },
+  {
+    name: "Karakterku",
+    imagePath: "portfolio/karakterku.png",
+    description: "",
   },
 ];
