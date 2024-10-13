@@ -28,6 +28,7 @@ function Cover({ setCover }) {
       >
         Find more
       </button>
+      <div className="h-1 w-1/2 bg-orange rounded-lg mt-10"></div>
       <div className="flex space-x-12 text-4xl sm:text-5xl mt-8 ">
         <a
           href="https://www.instagram.com/ary_code"
