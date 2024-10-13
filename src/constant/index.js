@@ -143,11 +143,11 @@ export const portfolioList = [
     imagePath: "portfolio/hulucash.png",
     description: "",
   },
-  {
-    name: "Aplikasi Super",
-    imagePath: "portfolio/super.png",
-    description: "",
-  },
+  // {
+  //   name: "Aplikasi Super",
+  //   imagePath: "portfolio/super.png",
+  //   description: "",
+  // },
   {
     name: "Karakterku",
     imagePath: "portfolio/karakterku.png",

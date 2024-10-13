@@ -12,7 +12,7 @@ function Cover({ setCover }) {
         className="h-40 rounded-full mt-24 mb-5 sm:h-52 lg:h-64"
       />
       <h1 className="text-2xl sm:text-4xl md:text-6xl font-semibold text-shadow-md">
-        - MUHAMMAD ARY -
+        - MUHAMMAD ARY W -
       </h1>
       <p className="text-lg sm:text-xl md:text-2xl font-light mt-4">
         Backend Developer

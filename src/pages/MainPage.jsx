@@ -5,6 +5,7 @@ import Stacks from "../components/Stacks";
 import Experience from "../components/Experience";
 import Portfolio from "../components/Portfolio";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 function MainPage({ setCover }) {
   return (
@@ -15,6 +16,7 @@ function MainPage({ setCover }) {
       <Experience />
       <Portfolio />
       <Contact />
+      <Footer />
       <NavbarButtom setCover={setCover} />
     </div>
   );

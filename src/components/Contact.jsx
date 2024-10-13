@@ -98,7 +98,7 @@ export function Contact() {
               color="gray"
               placeholder=" Message"
               name="message"
-              className="focus:border-t-gray-900 p-2 md:p-3 text-primary"
+              className="focus:border-t-gray-900 p-2 md:p-3 text-primary rounded-lg"
               containerProps={{
                 className: "!min-w-full",
               }}
@@ -107,7 +107,7 @@ export function Contact() {
               }}
             />
           </div>
-          <Button className="w-full bg-orange" color="gray">
+          <Button className="w-full bg-orange text-primary">
             Send message
           </Button>
         </form>
