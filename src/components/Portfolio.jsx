@@ -9,7 +9,7 @@ function Portfolio() {
         <div className="h-1 w-32 bg-orange rounded-lg mt-2"></div>
       </div>
       {/* portfolio container */}
-      <div className="px-5 mt-7 flex flex-col gap-3 w-full md:flex-row md:flex-wrap md:justify-between">
+      <div className="px-5 mt-7 flex flex-col gap-3 md:gap-5 w-full md:flex-row md:flex-wrap md:justify-between lg:justify-start lg:gap-6">
         {portfolioList.map((item, index) => (
           <PortfolioCard key={index} {...item} />
         ))}

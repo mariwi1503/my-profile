@@ -26,7 +26,7 @@ function NavbarTop({ setCover }) {
     <nav
       className={`fixed top-5 left-1/2 transform -translate-x-1/2 bg-gray-200 shadow-lg text-lg font-semibold text-primary px-10 py-2 rounded-lg transition-transform duration-300 z-50 ${
         isVisible ? "translate-y-0" : "-translate-y-40"
-      } hidden md:block`}
+      } hidden md:block border-[3px] border-primary`}
     >
       <div className="flex gap-7">
         {navMenu.map((menu, index) => (
