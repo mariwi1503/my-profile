@@ -25,7 +25,9 @@ export function Contact() {
       </p>
       {/* map container */}
       <div className="flex flex-col gap-4 md:flex-row ">
-        <LeafletMap />
+        <div className="z-10">
+          <LeafletMap />
+        </div>
         <form action="#" className="flex flex-col gap-3 text-md mx-auto">
           <div className="flex gap-3 justify-between">
             <div>

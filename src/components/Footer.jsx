@@ -3,10 +3,9 @@ import { IoLogoWhatsapp } from "react-icons/io";
 
 function Footer() {
   return (
-    <section className="h-14 w-full bg-orange mt-10 font-bold text-primary pb-[48px] md:pb-0">
-      <div className="flex justify-between px-5 h-full items-center text-md">
-        <h4>Muhammad Ary Widodo, 2024.</h4>
-        <div className="flex gap-3 justify-end">
+    <section className="w-full bg-slate-900 mt-10 text-secondary py-4 font-sans">
+      <div className="flex flex-col justify-between px-5 h-full items-center text-md gap-2">
+        <div className="flex gap-4 justify-start text-xl">
           <a
             href="https://www.instagram.com/ary_code"
             target="_blank"
@@ -32,6 +31,9 @@ function Footer() {
             <FaLinkedin />
           </a>
         </div>
+        <p className="text-center text-[12px]">
+          &copy; Copyright 2024, All Right Reserved by Ary.
+        </p>
       </div>
     </section>
   );

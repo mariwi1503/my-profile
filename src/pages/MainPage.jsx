@@ -17,7 +17,7 @@ function MainPage({ setCover }) {
       <Portfolio />
       <Contact />
       <Footer />
-      <NavbarButtom setCover={setCover} />
+      {/* <NavbarButtom setCover={setCover} /> */}
     </div>
   );
 }
