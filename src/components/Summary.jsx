@@ -2,7 +2,7 @@ import VideoStory from "./VideoStory";
 
 function Summary() {
   return (
-    <div
+    <section
       id="summary"
       className="flex flex-col mx-auto pb-10 md:flex-row items-center"
     >
@@ -51,7 +51,7 @@ function Summary() {
       <div className="md:mt-24 px-5 w-full md:w-1/3">
         <VideoStory />
       </div>
-    </div>
+    </section>
   );
 }
 

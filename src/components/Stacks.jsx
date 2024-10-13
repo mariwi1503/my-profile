@@ -3,7 +3,7 @@ import StackCard from "./StackCard";
 
 function Stacks() {
   return (
-    <div id="stack" className="mx-auto mb-16">
+    <section id="stack" className="mx-auto mb-16">
       <div className="px-5">
         <h3 className="text-3xl sm:text-4xl font-medium">Tech Stacks</h3>
         <div className="h-1 w-32 bg-orange rounded-lg mt-2"></div>
@@ -17,7 +17,7 @@ function Stacks() {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 

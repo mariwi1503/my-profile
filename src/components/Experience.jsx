@@ -4,7 +4,7 @@ import { experienceList } from "../constant";
 
 function Experience() {
   return (
-    <div id="experience" className="mb-10">
+    <section id="experience" className="mb-10">
       <div className="px-5">
         <h3 className="text-3xl sm:text-4xl font-medium">Experience</h3>
         <div className="h-1 w-32 bg-orange rounded-lg mt-2"></div>
@@ -15,7 +15,7 @@ function Experience() {
           <ExperienceCard {...item} key={index} />
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 

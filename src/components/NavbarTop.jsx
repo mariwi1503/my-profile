@@ -40,12 +40,12 @@ function NavbarTop({ setCover }) {
           isVisible ? "translate-y-0" : "-translate-y-40"
         } hidden md:block border-[3px] border-primary`}
       >
-        <div className="flex gap-7">
+        <div className="flex gap-5">
           {navMenu.map((menu, index) => (
             <a
               key={index}
               href={`#${menu.link}`}
-              className="px-5 py-1 rounded-lg transition-colors duration-300 hover:bg-primary hover:text-gray-200"
+              className="px-4 py-1 rounded-lg transition-colors duration-300 hover:bg-primary hover:text-gray-200"
               onClick={() => {
                 menu.title === "Home" && setCover(true);
                 closeMenu(); // Tutup menu jika di klik

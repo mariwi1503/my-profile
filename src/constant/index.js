@@ -19,6 +19,10 @@ export const navMenu = [
     title: "Portfolio",
     link: "portfolio",
   },
+  {
+    title: "Contact",
+    link: "contact",
+  },
 ];
 
 export const stackItem = [
