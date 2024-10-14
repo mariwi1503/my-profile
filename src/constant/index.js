@@ -82,6 +82,10 @@ export const stackItem = [
     name: "Tailwind",
     image: "icon/tailwind.png",
   },
+  {
+    name: "Git",
+    image: "icon/git.png",
+  },
 ];
 
 export const experienceList = [
