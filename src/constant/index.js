@@ -35,6 +35,10 @@ export const stackItem = [
     image: "icon/nodejs.png",
   },
   {
+    name: "Typescript",
+    image: "icon/typescript.png",
+  },
+  {
     name: "Express",
     image: "icon/express.png",
   },
@@ -43,12 +47,32 @@ export const stackItem = [
     image: "icon/nestjs.png",
   },
   {
+    name: "React",
+    image: "icon/react.png",
+  },
+  {
     name: "MySQL",
     image: "icon/mysql.png",
   },
   {
     name: "PostgreSQL",
     image: "icon/postgres.png",
+  },
+  {
+    name: "Git",
+    image: "icon/git.png",
+  },
+  {
+    name: "HTML",
+    image: "icon/html.png",
+  },
+  // {
+  //   name: "CSS",
+  //   image: "icon/css.png",
+  // },
+  {
+    name: "Tailwind",
+    image: "icon/tailwind.png",
   },
   {
     name: "Redis",
@@ -63,28 +87,8 @@ export const stackItem = [
     image: "icon/prisma.png",
   },
   {
-    name: "React",
-    image: "icon/react.png",
-  },
-  {
     name: "Vite",
     image: "icon/vite.png",
-  },
-  {
-    name: "HTML",
-    image: "icon/html.png",
-  },
-  {
-    name: "CSS",
-    image: "icon/css.png",
-  },
-  {
-    name: "Tailwind",
-    image: "icon/tailwind.png",
-  },
-  {
-    name: "Git",
-    image: "icon/git.png",
   },
 ];
 

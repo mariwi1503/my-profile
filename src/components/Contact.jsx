@@ -14,8 +14,8 @@ import LeafletMap from "./LeafletMap";
 
 export function Contact() {
   return (
-    <section id="contact" className="px-5 mt-10">
-      <div className="mb-10">
+    <section id="contact" className="px-5 mt-12">
+      <div className="mb-6">
         <h3 className="text-3xl sm:text-4xl font-medium">Contact</h3>
         <div className="h-1 w-28 bg-orange rounded-lg mt-2"></div>
       </div>

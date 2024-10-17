@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 
 function MainPage({ setCover }) {
   return (
-    <div className="max-w-5xl mx-auto bg-primary">
+    <div className="max-w-5xl mx-auto ">
       <NavbarTop setCover={setCover} />
       <Summary />
       <Stacks />
