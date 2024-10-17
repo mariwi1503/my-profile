@@ -4,6 +4,14 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 // Lokasi default
 const position = [1.0456, 104.0305]; // Batam
 
+const customIcon = () => {
+  const iconUrl = "/marker-icon.png";
+  return L.icon({
+    iconUrl: iconUrl,
+    iconSize: [30, 30],
+  });
+};
+
 function LeafletMap() {
   return (
     <MapContainer
@@ -16,7 +24,7 @@ function LeafletMap() {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
-      <Marker position={position}>
+      <Marker icon={customIcon()} position={position}>
         <Popup>Batam, Indonesia</Popup>
       </Marker>
     </MapContainer>
