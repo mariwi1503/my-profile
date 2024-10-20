@@ -1,7 +1,5 @@
-import { FaSquareInstagram } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
-import { ImGithub } from "react-icons/im";
 import { IoLogoWhatsapp } from "react-icons/io";
+import { FaLinkedin, FaSquareInstagram, FaDiscord } from "react-icons/fa6";
 
 function Cover({ setCover }) {
   return (
@@ -47,6 +45,13 @@ function Cover({ setCover }) {
           <IoLogoWhatsapp />
         </a>
         <a
+          href="https://discord.com/users/834295200931250216"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaDiscord />
+        </a>
+        <a
           href="https://www.linkedin.com/in/muhammad-ary-687552209/"
           target="_blank"
           rel="noopener noreferrer"
@@ -54,14 +59,6 @@ function Cover({ setCover }) {
         >
           <FaLinkedin />
         </a>
-
-        {/* <a
-          href="https://github.com/mariwi1503"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <ImGithub />
-        </a> */}
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import { FaLinkedin, FaSquareInstagram } from "react-icons/fa6";
+import { FaLinkedin, FaSquareInstagram, FaDiscord } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io";
 
 function Footer() {
@@ -21,6 +21,13 @@ function Footer() {
             className="hover:scale-105 active:scale-95"
           >
             <IoLogoWhatsapp />
+          </a>
+          <a
+            href="https://discord.com/users/834295200931250216"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaDiscord />
           </a>
           <a
             href="https://www.linkedin.com/in/muhammad-ary-687552209/"
