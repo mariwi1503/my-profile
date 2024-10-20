@@ -190,7 +190,7 @@ export const portfolioList = [
     techStack: ["Nodejs", "Nest", "Prisma", "PosgreSQL", "React", "Tailwind"],
     role: "Backend Developer",
     contribution:
-      "I built the server-side application that powers the web app and was involved in nearly 80% of all the backend features.",
+      "building the server-side application that powers the web app, in which I was involved in nearly 80% of all backend features",
   },
   {
     name: "CoSIRI",
@@ -202,7 +202,7 @@ export const portfolioList = [
     techStack: ["Nodejs", "Nest", "Prisma", "PosgreSQL", "React", "Tailwind"],
     role: "Backend Developer",
     contribution:
-      "I built the server-side application that powers the web app and was involved in over 50% of all the backend features.",
+      "building the server-side application that powers the web app, where I was involved in over 50% of all backend features",
   },
   {
     name: "Hulu Cash",
@@ -221,13 +221,13 @@ export const portfolioList = [
     ],
     role: "Lead Engineer",
     contribution:
-      "I serve as the engineering lead and am also responsible for providing the backend application to support two platforms: web apps and mobile apps.",
+      "serving as the engineering lead and being responsible for providing the backend application to support both web and mobile platforms",
   },
   {
     name: "SuperApp",
     imagePath: "portfolio/super.png",
     description:
-      "SuperApp is an e-commerce application that provides basic necessities and more. This application is highly beneficial for grocers and wholesalers.",
+      "SuperApp is an e-commerce application that provides basic necessities and more, highly beneficial for grocers and wholesalers. This application was developed by PT. Krakatau Karya Abadi, my previous employer, and when I joined, it had already been downloaded by over 50,000 people on the Play Store",
     ownership: "This Product is fully owned by PT. Krakatau Karya Abadi",
     techStack: [
       "Nodejs",
@@ -240,7 +240,7 @@ export const portfolioList = [
     ],
     role: "Backend Engineer",
     contribution:
-      "I joined as a junior developer and worked on lighter tasks assigned by the tech leader, such as adjusting API responses and making some improvements.",
+      "working on lighter tasks assigned by the tech leader, such as adjusting API responses and implementing improvements, but I didn't contribute much on the feature side because the application was already quite large when I joined.",
   },
   {
     name: "Karakterku",
@@ -251,6 +251,6 @@ export const portfolioList = [
     techStack: ["Nodejs", "React", "Tailwind", "Express"],
     role: "Backend Developer",
     contribution:
-      "I built the server-side application that powers the web app and was involved in all the backend features, since I was the one and only backend developer",
+      "building the server-side application that powers the web app and being involved in all backend features, as I was the sole backend developer",
   },
 ];
