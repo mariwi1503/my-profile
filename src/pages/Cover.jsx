@@ -7,12 +7,12 @@ function Cover({ setCover }) {
       <img
         src="images/cover.png"
         alt="Banner image"
-        className="h-40 rounded-full mt-24 mb-5 sm:h-52 lg:h-64"
+        className="h-40 rounded-full mt-24 mb-5 sm:h-52 lg:h-64 animate-float"
       />
-      <h1 className="text-2xl sm:text-4xl md:text-6xl font-semibold text-shadow-md">
+      <h1 className="text-2xl sm:text-4xl md:text-6xl font-semibold text-shadow-md animate-fadeIn">
         - MUHAMMAD ARY W -
       </h1>
-      <p className="text-lg sm:text-xl md:text-2xl font-light mt-4">
+      <p className="text-lg sm:text-xl md:text-2xl font-light mt-4 animate-fadeIn">
         Backend Developer
       </p>
       <p className="text-center text-base sm:text-lg md:text-lg font-normal max-w-4xl mt-5 mb-8 px-4">
@@ -32,7 +32,7 @@ function Cover({ setCover }) {
           href="https://www.instagram.com/ary_code"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:scale-105 active:scale-95"
+          className="transform transition duration-300 hover:scale-110 hover:rotate-12"
         >
           <FaSquareInstagram />
         </a>
@@ -40,7 +40,7 @@ function Cover({ setCover }) {
           href="https://wa.me/6285338714313"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:scale-105 active:scale-95"
+          className="transform transition duration-300 hover:scale-110 hover:rotate-12"
         >
           <IoLogoWhatsapp />
         </a>
@@ -48,6 +48,7 @@ function Cover({ setCover }) {
           href="https://discord.com/users/834295200931250216"
           target="_blank"
           rel="noopener noreferrer"
+          className="transform transition duration-300 hover:scale-110 hover:rotate-12"
         >
           <FaDiscord />
         </a>
@@ -55,7 +56,7 @@ function Cover({ setCover }) {
           href="https://www.linkedin.com/in/muhammad-ary-687552209/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:scale-105 active:scale-95"
+          className="transform transition duration-300 hover:scale-110 hover:rotate-12"
         >
           <FaLinkedin />
         </a>
