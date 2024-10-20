@@ -24,7 +24,7 @@ function ExperienceModal({ isOpen, closeModal, data }) {
   return (
     <div
       onClick={handleOutsideClick}
-      className="fixed inset-0 bg-secondary md:bg-black bg-opacity-50 backdrop-blur-sm flex justify-center items-center z-50"
+      className="fixed inset-0 bg-gray-500 bg-opacity-50 backdrop-blur-sm flex justify-center items-center z-50"
     >
       <div className="bg-white dark:bg-gray-900 rounded-lg shadow-2xl max-w-3xl w-full mx-4 md:mx-0 relative p-6 md:p-10 text-gray-800 dark:text-gray-200 overflow-y-auto max-h-[85vh]">
         {/* Tombol Close */}
@@ -71,7 +71,7 @@ function ExperienceModal({ isOpen, closeModal, data }) {
         {/* Website Link */}
         <div className="flex justify-center mt-6">
           <a
-            className="text-white hover:opacity-80 py-2 px-6 rounded-lg bg-gradient-to-r from-blue-500 to-purple-600"
+            className="text-white bg-gradient-to-r from-blue-500 to-purple-600 hover:opacity-80 py-2 px-6 rounded-lg"
             href={data.website}
             target="_blank"
             rel="noopener noreferrer"

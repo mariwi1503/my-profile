@@ -4,14 +4,17 @@ import PortfolioCard from "./PortfolioCard";
 import PortfolioModal from "../modals/PortfolioModal";
 
 function Portfolio() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedPortfolio, setSelectedPortfolio] = useState(null); // state untuk modal
 
   const handleCardClick = (project) => {
-    setSelectedPortfolio(project); // buka modal dengan project yang dipilih
+    setSelectedPortfolio(project);
+    setIsModalOpen(true);
   };
 
   const handleCloseModal = () => {
-    setSelectedPortfolio(null); // tutup modal
+    setSelectedPortfolio(null);
+    setIsModalOpen(false);
   };
 
   return (
@@ -34,6 +37,7 @@ function Portfolio() {
       {/* Render Modal jika project dipilih */}
       {selectedPortfolio && (
         <PortfolioModal
+          isOpen={isModalOpen}
           portfolio={selectedPortfolio}
           onClose={handleCloseModal}
         />
