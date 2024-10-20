@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import ExperienceCard from "./ExperienceCard";
 import { experienceList } from "../constant";
-import ExperienceModal from "./ExperienceModal";
+import ExperienceModal from "../modals/ExperienceModal";
 
 function Experience() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedExperience, setSelectedExperience] = useState(null); // Menyimpan data card yang diklik
 
-  const openModal = (experience) => {
+  function openModal(experience) {
     setSelectedExperience(experience); // Set data yang dipilih
     setIsModalOpen(true); // Tampilkan modal
-  };
+  }
 
   const closeModal = () => setIsModalOpen(false); // Menutup modal
 

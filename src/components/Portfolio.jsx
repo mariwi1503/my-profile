@@ -1,7 +1,19 @@
+import { useState } from "react";
 import { portfolioList } from "../constant";
 import PortfolioCard from "./PortfolioCard";
+import PortfolioModal from "../modals/PortfolioModal";
 
 function Portfolio() {
+  const [selectedPortfolio, setSelectedPortfolio] = useState(null); // state untuk modal
+
+  const handleCardClick = (project) => {
+    setSelectedPortfolio(project); // buka modal dengan project yang dipilih
+  };
+
+  const handleCloseModal = () => {
+    setSelectedPortfolio(null); // tutup modal
+  };
+
   return (
     <section id="portfolio">
       <div className="px-5">
@@ -9,11 +21,23 @@ function Portfolio() {
         <div className="h-1 w-32 bg-orange rounded-lg mt-2"></div>
       </div>
       {/* portfolio container */}
-      <div className="px-5 mt-7 flex flex-col gap-3 md:gap-5 w-full md:flex-row md:flex-wrap md:justify-between lg:gap-6">
+      <div className="px-5 mt-7 flex flex-col gap-3 md:gap-5 w-full md:flex-row md:flex-wrap md:justify-start lg:gap-6">
         {portfolioList.map((item, index) => (
-          <PortfolioCard key={index} {...item} />
+          <PortfolioCard
+            key={index}
+            {...item}
+            onClick={() => handleCardClick(item)}
+          />
         ))}
       </div>
+
+      {/* Render Modal jika project dipilih */}
+      {selectedPortfolio && (
+        <PortfolioModal
+          portfolio={selectedPortfolio}
+          onClose={handleCloseModal}
+        />
+      )}
     </section>
   );
 }

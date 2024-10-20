@@ -50,7 +50,7 @@ function ExperienceModal({ isOpen, closeModal, data }) {
           href={data.website}
           target="_blank"
         >
-          Visit Website
+          Company Website
         </a>
       </div>
     </div>

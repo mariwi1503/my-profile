@@ -173,11 +173,8 @@ export const experienceList = [
     description:
       "Castellum Digital Indonesia (CDI) is a company that focuses on “Health Information System (HIS) Development and Implementation,” through the Digital Principles¹ approach and the use of DHIS2 Global Digital Public Good (DPG). I joined CDI as a remote intern while also working as a driver at the time. I only worked here for a month and didn’t have the opportunity to contribute to any real projects.",
     responsibilities: [
-      "Write clean, readable, and reusable code.",
-      "Develop backend aplication for new project or features along with Product Manager",
-      "Build scalable and reliable APIs.",
-      "Design Database and create open-API for incoming project",
-      "Collaborate with Front-end developers to integrate user-facing elements with server-side logic.",
+      "Exploring typescript",
+      "Design and implement REST Api for frontend developers",
     ],
   },
 ];
@@ -186,26 +183,74 @@ export const portfolioList = [
   {
     name: "SIRI",
     imagePath: "portfolio/siri.png",
-    description: "",
+    description:
+      "The Smart Industry Readiness Index (SIRI) is the world’s first independent digital maturity assessment for manufacturers. It comprises a suite of frameworks and tools to help manufacturers – regardless of size and industry – start, scale, and sustain their manufacturing transformation journeys.",
+    ownership:
+      "This Product is fully owned by INCIT (International Center for Industrial Transformation).",
+    techStack: ["Nodejs", "Nest", "Prisma", "PosgreSQL", "React", "Tailwind"],
+    role: "Backend Developer",
+    contribution:
+      "I built the server-side application that powers the web app and was involved in nearly 80% of all the backend features.",
   },
   {
     name: "CoSIRI",
     imagePath: "portfolio/cosiri.png",
-    description: "",
+    description:
+      "The Consumer Sustainability Industry Readiness Index (COSIRI) is a comprehensive framework and set of tools designed to assist manufacturers, regardless of size or industry, to embed sustainability into all their operations.",
+    ownership:
+      "This Product is fully owned by INCIT (International Center for Industrial Transformation).",
+    techStack: ["Nodejs", "Nest", "Prisma", "PosgreSQL", "React", "Tailwind"],
+    role: "Backend Developer",
+    contribution:
+      "I built the server-side application that powers the web app and was involved in over 50% of all the backend features.",
   },
   {
     name: "Hulu Cash",
     imagePath: "portfolio/hulucash.png",
-    description: "",
+    description:
+      "This application is an employee loan application, which makes the process faster and more accurate.",
+    ownership: "This Product is fully owned by RSI Client.",
+    techStack: [
+      "Typescript",
+      "NestJS",
+      "Node.js",
+      "Mysql",
+      "Xendit",
+      "Prisma ORM",
+      "Digital Ocean Droplet",
+    ],
+    role: "Lead Engineer",
+    contribution:
+      "I serve as the engineering lead and am also responsible for providing the backend application to support two platforms: web apps and mobile apps.",
   },
-  // {
-  //   name: "Aplikasi Super",
-  //   imagePath: "portfolio/super.png",
-  //   description: "",
-  // },
+  {
+    name: "SuperApp",
+    imagePath: "portfolio/super.png",
+    description:
+      "SuperApp is an e-commerce application that provides basic necessities and more. This application is highly beneficial for grocers and wholesalers.",
+    ownership: "This Product is fully owned by PT. Krakatau Karya Abadi",
+    techStack: [
+      "Nodejs",
+      "Express",
+      "Nest",
+      "Mysql",
+      "Ionic",
+      "Flutter",
+      "Firebase",
+    ],
+    role: "Backend Engineer",
+    contribution:
+      "I joined as a junior developer and worked on lighter tasks assigned by the tech leader, such as adjusting API responses and making some improvements.",
+  },
   {
     name: "Karakterku",
     imagePath: "portfolio/karakterku.png",
-    description: "",
+    description:
+      "Karakterku is an application created as an aid for one of our clients who is completing their master's degree at a university.",
+    ownership: "This Product is currently owned Miftahul, My client",
+    techStack: ["Nodejs", "React", "Tailwind", "Express"],
+    role: "Backend Developer",
+    contribution:
+      "I built the server-side application that powers the web app and was involved in all the backend features, since I was the one and only backend developer",
   },
 ];
