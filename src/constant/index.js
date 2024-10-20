@@ -103,6 +103,16 @@ export const experienceList = [
     location: "Remote",
     city: "Singapore",
     country: "Singapore",
+    website: "https://incit.org/",
+    description:
+      "The International Centre for Industrial Transformation, or INCIT (pronounced as “insight”), is an Environmental, Social, and Governance (ESG) institution which champions manufacturing transformation. I joined INCIT as a backend developer in October 2022 and have been working there ever since. Upon joining, I immediately took charge of several projects built from scratch through to production, collaborating with other developers and designers on the team.",
+    responsibilities: [
+      "Write clean, readable, and reusable code.",
+      "Develop backend aplication for new project or features along with Product Manager",
+      "Build scalable and reliable APIs.",
+      "Design Database and create open-API for incoming project",
+      "Collaborate with Front-end developers to integrate user-facing elements with server-side logic.",
+    ],
   },
   {
     logo: "experience/rsi.jpeg",
@@ -114,6 +124,20 @@ export const experienceList = [
     location: "Remote",
     city: "Jakarta",
     country: "Indonesia",
+    website: "https://ruang-solusi.com/",
+    description:
+      "PT Ruang Solusi Internusa is a local startup company engaged in the technology and information sector. I joined RSI as a working partner, handling client projects alongside a development team consisting of UI/UX designers and several developers. I led the team through to project completion and am still actively providing solutions and advice to RSI in the context of software development.",
+    responsibilities: [
+      "Lead the engineering team.",
+      "Provide business flow alongs with client request.",
+      "Provide business flow documentation according to client requests.",
+      "Create various documents related to ongoing work.",
+      "Manage project tasks using Trello.",
+      "Lead stand-up meetings.",
+      "Design databases and create OpenAPI specifications for the project.",
+      "Contribute to the backend development.",
+      "Collaborate with other developers to integrate user-facing elements with server-side logic.",
+    ],
   },
   {
     logo: "experience/super.jpeg",
@@ -125,6 +149,15 @@ export const experienceList = [
     location: "Onsite",
     city: "Surabaya",
     country: "Indonesia",
+    website: "https://superapp.id/",
+    description:
+      "Super is an application for resellers to sell FMCG goods within their communities. Super empowers community leaders in 2nd tier and 3rd tier cities to become self-made entrepreneurs. I joined Super at the end of 2021 as a backend engineer. The company's IT team is quite large, and I became part of the Vanguard team, which is responsible for developing the company's main product, the Super application itself.",
+    responsibilities: [
+      "Write clean, readable, reusable, and testable code.",
+      "Build scalable and reliable APIs.",
+      "Collaborate with Front-end developers to integrate user-facing elements with server-side logic.",
+      "Work closely with product managers and other developers towards the completion of development assigned features.",
+    ],
   },
   {
     logo: "experience/cdi.jpeg",
@@ -136,6 +169,16 @@ export const experienceList = [
     location: "Remote",
     city: "Mataram",
     country: "Indonesia",
+    website: "https://castellumdigital.id/",
+    description:
+      "Castellum Digital Indonesia (CDI) is a company that focuses on “Health Information System (HIS) Development and Implementation,” through the Digital Principles¹ approach and the use of DHIS2 Global Digital Public Good (DPG). I joined CDI as a remote intern while also working as a driver at the time. I only worked here for a month and didn’t have the opportunity to contribute to any real projects.",
+    responsibilities: [
+      "Write clean, readable, and reusable code.",
+      "Develop backend aplication for new project or features along with Product Manager",
+      "Build scalable and reliable APIs.",
+      "Design Database and create open-API for incoming project",
+      "Collaborate with Front-end developers to integrate user-facing elements with server-side logic.",
+    ],
   },
 ];
 

@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import ExperienceCard from "./ExperienceCard";
 import { experienceList } from "../constant";
+import ExperienceModal from "./ExperienceModal";
 
 function Experience() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedExperience, setSelectedExperience] = useState(null); // Menyimpan data card yang diklik
+
+  const openModal = (experience) => {
+    setSelectedExperience(experience); // Set data yang dipilih
+    setIsModalOpen(true); // Tampilkan modal
+  };
+
+  const closeModal = () => setIsModalOpen(false); // Menutup modal
+
   return (
     <section id="experience" className="mb-10">
       <div className="px-5">
@@ -12,9 +23,28 @@ function Experience() {
       {/* experience container */}
       <div className="flex mt-5 px-5 flex-wrap justify-center md:gap-2 lg:justify-between">
         {experienceList.map((item, index) => (
-          <ExperienceCard {...item} key={index} />
+          <ExperienceCard
+            {...item}
+            key={index}
+            onClick={() =>
+              openModal({
+                description: item.description,
+                responsibilities: item.responsibilities,
+                website: item.website,
+              })
+            } // Kirim data saat card diklik
+          />
         ))}
       </div>
+
+      {/* Modal */}
+      {selectedExperience && (
+        <ExperienceModal
+          isOpen={isModalOpen}
+          closeModal={closeModal}
+          data={selectedExperience} // Kirim data ke modal
+        />
+      )}
     </section>
   );
 }
