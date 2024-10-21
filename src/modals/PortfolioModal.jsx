@@ -28,11 +28,11 @@ function PortfolioModal({ portfolio, onClose, isOpen }) {
       onClick={handleOutsideClick}
       className="fixed inset-0 bg-gray-500 bg-opacity-50 backdrop-blur-sm flex justify-center items-center z-50"
     >
-      <div className="bg-white dark:bg-gray-900 rounded-lg shadow-2xl max-w-3xl w-full mx-4 md:mx-0 relative p-6 md:p-10 text-gray-800 dark:text-gray-200 overflow-y-auto max-h-[85vh]">
+      <div className="bg-gray-900 rounded-lg shadow-2xl max-w-3xl w-full mx-4 md:mx-0 relative p-6 md:p-10 text-gray-200 overflow-y-auto max-h-[85vh]">
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 text-gray-600 dark:text-gray-300 hover:text-red-600 dark:hover:text-red-400 transition-all duration-300"
+          className="absolute top-4 right-4 text-gray-300 hover:text-red-400 transition-all duration-300"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -51,19 +51,19 @@ function PortfolioModal({ portfolio, onClose, isOpen }) {
         </button>
 
         {/* Description Section */}
-        <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-300 dark:border-gray-700 pb-2">
+        <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-700 pb-2">
           Project Overview
         </h2>
         <p className="text-justify leading-relaxed text-lg">{description}</p>
 
         {/* Ownership Section */}
-        <h2 className="text-2xl font-semibold mt-6 mb-4 border-b-2 border-gray-300 dark:border-gray-700 pb-2">
+        <h2 className="text-2xl font-semibold mt-6 mb-4 border-b-2 border-gray-700 pb-2">
           Ownership
         </h2>
         <p className="text-justify leading-relaxed text-lg">{ownership}</p>
 
         {/* Role and Contribution Section */}
-        <h2 className="text-2xl font-semibold mt-6 mb-4 border-b-2 border-gray-300 dark:border-gray-700 pb-2">
+        <h2 className="text-2xl font-semibold mt-6 mb-4 border-b-2 border-gray-700 pb-2">
           Role & Contribution
         </h2>
         <p className="text-justify leading-relaxed text-lg">
@@ -72,7 +72,7 @@ function PortfolioModal({ portfolio, onClose, isOpen }) {
         </p>
 
         {/* Technologies Section */}
-        <h3 className="text-xl font-semibold mt-6 mb-4 border-b-2 border-gray-300 dark:border-gray-700 pb-2">
+        <h3 className="text-xl font-semibold mt-6 mb-4 border-b-2 border-gray-700 pb-2">
           Technologies Used
         </h3>
         <div className="flex flex-wrap gap-3 mt-4">
