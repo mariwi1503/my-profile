@@ -10,7 +10,8 @@ function Cover({ setCover }) {
         className="h-40 rounded-full mt-24 mb-5 sm:h-52 lg:h-64 animate-float"
       />
       <h1 className="text-2xl sm:text-4xl md:text-6xl font-semibold text-shadow-md animate-fadeIn">
-        - MUHAMMAD ARY W -
+        <span className="lg:hidden">- MUHAMMAD ARY W -</span>
+        <span className="hidden lg:block">- MUHAMMAD ARY WIDODO -</span>
       </h1>
       <p className="text-lg sm:text-xl md:text-2xl font-light mt-4 animate-fadeIn">
         Backend Developer

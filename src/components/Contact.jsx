@@ -1,14 +1,3 @@
-// function Contact() {
-//   return (
-//     <div>
-//       <div className=""></div>
-//     </div>
-//   );
-// }
-
-// export default Contact;
-
-import React from "react";
 import { Button, Input, Textarea, Typography } from "@material-tailwind/react";
 import LeafletMap from "./LeafletMap";
 

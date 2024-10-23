@@ -95,6 +95,7 @@ export const stackItem = [
 export const experienceList = [
   {
     logo: "experience/incit.jpeg",
+    isActive: true,
     company: "INCIT",
     role: "Backend Developer",
     job: "Fulltime",
@@ -116,6 +117,7 @@ export const experienceList = [
   },
   {
     logo: "experience/rsi.jpeg",
+    isActive: false,
     company: "Ruang Solusi Internusa",
     role: "Lead Engineer",
     job: "Freelance",
@@ -141,6 +143,7 @@ export const experienceList = [
   },
   {
     logo: "experience/super.jpeg",
+    isActive: false,
     company: "Aplikasi Super (YC W18)",
     role: "Backend Engineer",
     job: "Fulltime",
@@ -161,6 +164,7 @@ export const experienceList = [
   },
   {
     logo: "experience/cdi.jpeg",
+    isActive: false,
     company: "Castellum Digital Indonesia",
     role: "Junior Backend Developer",
     job: "Intern",
