@@ -28,12 +28,12 @@ function Testimonial() {
     ],
   };
   return (
-    <section id="testimony" className="w-full mx-auto mt-20 px-5 md:px-0">
-      <div className="mb-10 px-5">
-        <h3 className="text-3xl sm:text-4xl font-medium">What they said</h3>
+    <section id="testimony" className="w-full mx-auto px-5">
+      <div className="mb-5">
+        <h3 className="text-3xl sm:text-4xl font-medium">Testimonies</h3>
         <div className="h-1 w-32 lg:w-[12rem] bg-orange rounded-lg mt-2"></div>
       </div>
-      <div className="px-5">
+      <div className="px-2">
         <Slider {...settings}>
           {testimonial.map((item, index) => (
             <TestimonialCard key={index + 1} {...item} />
