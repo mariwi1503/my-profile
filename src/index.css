@@ -7,3 +7,7 @@
 body {
   @apply font-nunito  text-gray-200 bg-slate-800;
 }
+
+.slick-slide > div {
+  margin: 0 10px;
+}
