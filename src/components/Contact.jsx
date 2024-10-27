@@ -32,7 +32,7 @@ export function Contact() {
                   size="lg"
                   placeholder="First Name"
                   name="first-name"
-                  className="focus:border-t-gray-900 lg:w-52 md:w-48 text-primary px-2 md:px-3"
+                  className="focus:border-t-gray-900 lg:w-[230px] md:w-52 text-primary px-2 md:px-3"
                   containerProps={{
                     className: "min-w-full",
                   }}
@@ -53,7 +53,7 @@ export function Contact() {
                   size="lg"
                   placeholder="Last Name"
                   name="last-name"
-                  className="focus:border-t-gray-900 lg:w-52 md:w-48 text-primary px-2 md:px-3"
+                  className="focus:border-t-gray-900 lg:w-[230px] md:w-52 text-primary px-2 md:px-3"
                   containerProps={{
                     className: "!min-w-full",
                   }}

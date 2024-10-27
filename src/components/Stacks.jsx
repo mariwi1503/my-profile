@@ -9,7 +9,8 @@ function Stacks() {
         <div className="h-1 w-32 bg-orange rounded-lg mt-2"></div>
       </div>
       {/* stack container */}
-      <div className="flex flex-wrap px-5 mt-5 justify-start gap-3">
+      {/* <div className="flex flex-wrap px-5 mt-5 justify-start gap-3"> */}
+      <div className="px-5 mt-5 grid grid-cols-3 md:grid-cols-8 gap-3">
         {stackItem.map((stack, index) => (
           <div key={index}>
             <StackCard image={stack.image} />

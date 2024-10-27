@@ -24,7 +24,8 @@ function Portfolio() {
         <div className="h-1 w-32 bg-orange rounded-lg mt-2"></div>
       </div>
       {/* portfolio container */}
-      <div className="px-5 mt-7 flex flex-col gap-3 md:gap-5 w-full md:flex-row md:flex-wrap md:justify-start lg:gap-6">
+      {/* <div className="px-5 mt-7 flex flex-col gap-3 md:gap-5 w-full md:flex-row md:flex-wrap md:justify-start lg:gap-6"> */}
+      <div className="px-5 mt-7 grid grid-cols-1 md:grid-cols-3 gap-5">
         {portfolioList.map((item, index) => (
           <PortfolioCard
             key={index}

@@ -291,10 +291,10 @@ export const testimonial = [
       "https://media.licdn.com/dms/image/v2/D5603AQFpnbUJSvKAfw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1692162602148?e=1735776000&v=beta&t=rRN4NPAH_VdNc93N26hbl8K0XblbabcEP-W_SJSASQI",
   },
   {
-    name: "Fufufafa",
+    name: "Messi",
     review:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque id reprehenderit molestias ut vero voluptatem. Eveniet fuga vero explicabo adipisci debitis.",
-    designation: "Backend developer",
+    designation: "Youtuber",
     image:
       "https://media.licdn.com/dms/image/v2/D5603AQFpnbUJSvKAfw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1692162602148?e=1735776000&v=beta&t=rRN4NPAH_VdNc93N26hbl8K0XblbabcEP-W_SJSASQI",
   },

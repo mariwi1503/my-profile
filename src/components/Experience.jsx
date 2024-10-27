@@ -21,7 +21,8 @@ function Experience() {
         <div className="h-1 w-32 bg-orange rounded-lg mt-2"></div>
       </div>
       {/* experience container */}
-      <div className="flex mt-5 px-5 flex-wrap justify-center md:gap-2 lg:justify-between">
+      {/* <div className="flex mt-5 px-5 flex-wrap justify-center md:gap-2 lg:justify-between"> */}
+      <div className="mt-5 px-5 grid grid-cols-1 md:grid-cols-2 gap-3">
         {experienceList.map((item, index) => (
           <ExperienceCard
             {...item}

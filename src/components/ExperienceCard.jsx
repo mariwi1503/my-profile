@@ -16,7 +16,8 @@ function ExperienceCard({
 }) {
   return (
     <div
-      className="relative flex p-2 bg-secondary rounded-lg w-full h-50 md:w-[360px] mb-5 lg:w-[470px] hover:cursor-pointer transform transition-all duration-300 ease-in-out hover:scale-105 active:scale-95"
+      // className="relative flex p-2 bg-secondary rounded-lg w-full h-50 md:w-[360px] mb-5 lg:w-[470px] hover:cursor-pointer transform transition-all duration-300 ease-in-out hover:scale-105 active:scale-95"
+      className="relative flex p-2 bg-secondary rounded-lg w-full h-50 hover:cursor-pointer transform transition-all duration-300 ease-in-out hover:scale-105 active:scale-95"
       onClick={onClick}
     >
       {/* Icon centang di pojok kanan atas jika aktif */}
