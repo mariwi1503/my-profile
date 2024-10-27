@@ -6,7 +6,7 @@ function Cover({ setCover }) {
     <div className="h-screen flex flex-col items-center text-gray-200">
       {/* Wrapper div with pseudo-element for glow effect */}
       <div className="relative flex items-center justify-center mt-24 mb-5">
-        <div className="absolute inset-0 bg-blue-900 rounded-full blur-lg opacity-70 scale-125"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur-lg opacity-70 scale-125"></div>
         <img
           src="images/cover.png"
           alt="Banner image"

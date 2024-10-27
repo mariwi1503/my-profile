@@ -105,7 +105,7 @@ export function Contact() {
                 }}
               />
             </div>
-            <Button className="w-full bg-orange text-primary">
+            <Button className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white">
               Send message
             </Button>
           </form>

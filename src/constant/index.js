@@ -197,6 +197,8 @@ export const portfolioList = [
       "This Product is fully owned by INCIT (International Center for Industrial Transformation).",
     techStack: ["Nodejs", "Nest", "Prisma", "PosgreSQL", "React", "Tailwind"],
     role: "Backend Developer",
+    status: "live",
+    website: "https://siri.incit.org/",
     contribution:
       "building the server-side application that powers the web app, in which I was involved in nearly 80% of all backend features",
   },
@@ -209,6 +211,8 @@ export const portfolioList = [
       "This Product is fully owned by INCIT (International Center for Industrial Transformation).",
     techStack: ["Nodejs", "Nest", "Prisma", "PosgreSQL", "React", "Tailwind"],
     role: "Backend Developer",
+    status: "live",
+    website: "https://cosiri.incit.org/",
     contribution:
       "building the server-side application that powers the web app, where I was involved in over 50% of all backend features",
   },
@@ -218,6 +222,7 @@ export const portfolioList = [
     description:
       "This application is an employee loan application, which makes the process faster and more accurate.",
     ownership: "This Product is fully owned by RSI Client.",
+    status: "private",
     techStack: [
       "Typescript",
       "NestJS",
@@ -228,6 +233,7 @@ export const portfolioList = [
       "Digital Ocean Droplet",
     ],
     role: "Lead Engineer",
+    website: "",
     contribution:
       "serving as the engineering lead and being responsible for providing the backend application to support both web and mobile platforms",
   },
@@ -247,6 +253,9 @@ export const portfolioList = [
       "Firebase",
     ],
     role: "Backend Engineer",
+    status: "live",
+    website:
+      "https://play.google.com/store/apps/details?id=com.superagent.agent&utm_source=website-header",
     contribution:
       "working on lighter tasks assigned by the tech leader, such as adjusting API responses and implementing improvements, but I didn't contribute much on the feature side because the application was already quite large when I joined.",
   },
@@ -258,6 +267,8 @@ export const portfolioList = [
     ownership: "This Product is currently owned Miftahul, My client",
     techStack: ["Nodejs", "React", "Tailwind", "Express"],
     role: "Backend Developer",
+    status: "private",
+    website: "",
     contribution:
       "building the server-side application that powers the web app and being involved in all backend features, as I was the sole backend developer",
   },

@@ -1,7 +1,17 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 function PortfolioModal({ portfolio, onClose, isOpen }) {
-  const { description, techStack, role, ownership, contribution } = portfolio;
+  const {
+    description,
+    techStack,
+    role,
+    ownership,
+    contribution,
+    website,
+    status,
+  } = portfolio;
+
+  const [showToast, setShowToast] = useState(false);
 
   useEffect(() => {
     if (isOpen) {
@@ -20,6 +30,15 @@ function PortfolioModal({ portfolio, onClose, isOpen }) {
   const handleOutsideClick = (e) => {
     if (e.target === e.currentTarget) {
       onClose();
+    }
+  };
+
+  const handleVisitClick = () => {
+    if (status === "private") {
+      setShowToast(true);
+      setTimeout(() => setShowToast(false), 3000); // Toast akan hilang otomatis setelah 3 detik
+    } else {
+      window.open(website, "_blank");
     }
   };
 
@@ -75,7 +94,7 @@ function PortfolioModal({ portfolio, onClose, isOpen }) {
         <h3 className="text-xl font-semibold mt-6 mb-4 border-b-2 border-gray-700 pb-2">
           Technologies Used
         </h3>
-        <div className="flex flex-wrap gap-3 mt-4">
+        <div className="flex flex-wrap gap-3 mt-4 justify-center">
           {techStack.map((item, index) => (
             <span
               key={index}
@@ -85,6 +104,23 @@ function PortfolioModal({ portfolio, onClose, isOpen }) {
             </span>
           ))}
         </div>
+
+        {/* Visit Website Button */}
+        <div className="flex justify-center mt-6">
+          <button
+            onClick={handleVisitClick}
+            className="px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full"
+          >
+            Visit website
+          </button>
+        </div>
+
+        {/* Toast for Private Website */}
+        {showToast && (
+          <div className="fixed bottom-8 left-1/2 transform -translate-x-1/2 bg-red-600 text-white px-4 py-2 rounded-lg shadow-md">
+            This website is private or still pending deployment.
+          </div>
+        )}
       </div>
     </div>
   );
