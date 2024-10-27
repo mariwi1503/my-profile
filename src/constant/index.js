@@ -20,12 +20,12 @@ export const navMenu = [
     link: "portfolio",
   },
   {
-    title: "Contact",
-    link: "contact",
-  },
-  {
     title: "Testimony",
     link: "testimony",
+  },
+  {
+    title: "Contact",
+    link: "contact",
   },
 ];
 
@@ -265,39 +265,33 @@ export const portfolioList = [
 
 export const testimonial = [
   {
-    name: "Ahmad",
+    name: "Agus Setiawan",
+    review:
+      "Mas Ary adalah mentor backend yang luar biasa. Dia menjelaskan teknikal skill dengan cara menarik dan sabar menghadapi semua pertanyaan saya.",
+    designation: "Guru SD",
+    image:
+      "https://media.licdn.com/dms/image/v2/D5635AQFvSQr-5MbuEQ/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1703048158142?e=1730620800&v=beta&t=ZsUSugwzyA0t2Tzqj5BHbdjFmzwK9cA48E6hI1_zsFE",
+    linkedin: "https://www.linkedin.com/in/agus-setiawan-50657a266",
+  },
+  {
+    name: "Widodo",
+    review:
+      "Beliau adalah orang yang berjasa dalam karir saya di dunia programming, khususnya di bidang Backend Developer. Berawal kenal di media sosial sampai menjadi mentor.",
+    designation: "Backend developer",
+    linkedin: "https://www.linkedin.com/in/widodo-341a45307",
+    image:
+      "https://media.licdn.com/dms/image/v2/D5603AQG1uZrilEkrKw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729311302259?e=1735776000&v=beta&t=x1Uip9yc5Nf3O8I3B3eW5reqCnSG7l4ofdhDueu2_jM",
+  },
+  {
+    name: "Ronaldo",
     review:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque id reprehenderit molestias ut vero voluptatem. Eveniet fuga vero explicabo adipisci debitis.",
-    designation: "Backend developer",
+    designation: "Football Player",
     image:
       "https://media.licdn.com/dms/image/v2/D5603AQFpnbUJSvKAfw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1692162602148?e=1735776000&v=beta&t=rRN4NPAH_VdNc93N26hbl8K0XblbabcEP-W_SJSASQI",
   },
   {
-    name: "ali",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque id reprehenderit molestias ut vero voluptatem. Eveniet fuga vero explicabo adipisci debitis.",
-    designation: "Backend developer",
-    image:
-      "https://media.licdn.com/dms/image/v2/D5603AQFpnbUJSvKAfw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1692162602148?e=1735776000&v=beta&t=rRN4NPAH_VdNc93N26hbl8K0XblbabcEP-W_SJSASQI",
-  },
-  {
-    name: "ronaldo",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque id reprehenderit molestias ut vero voluptatem. Eveniet fuga vero explicabo adipisci debitis.",
-    designation: "Backend developer",
-    image:
-      "https://media.licdn.com/dms/image/v2/D5603AQFpnbUJSvKAfw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1692162602148?e=1735776000&v=beta&t=rRN4NPAH_VdNc93N26hbl8K0XblbabcEP-W_SJSASQI",
-  },
-  {
-    name: "fufufafa",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque id reprehenderit molestias ut vero voluptatem. Eveniet fuga vero explicabo adipisci debitis.",
-    designation: "Backend developer",
-    image:
-      "https://media.licdn.com/dms/image/v2/D5603AQFpnbUJSvKAfw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1692162602148?e=1735776000&v=beta&t=rRN4NPAH_VdNc93N26hbl8K0XblbabcEP-W_SJSASQI",
-  },
-  {
-    name: "prabowo",
+    name: "Fufufafa",
     review:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque id reprehenderit molestias ut vero voluptatem. Eveniet fuga vero explicabo adipisci debitis.",
     designation: "Backend developer",
