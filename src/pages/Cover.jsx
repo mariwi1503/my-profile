@@ -4,11 +4,15 @@ import { FaLinkedin, FaSquareInstagram, FaDiscord } from "react-icons/fa6";
 function Cover({ setCover }) {
   return (
     <div className="h-screen flex flex-col items-center text-gray-200">
-      <img
-        src="images/cover.png"
-        alt="Banner image"
-        className="h-40 rounded-full mt-24 mb-5 sm:h-52 lg:h-64 animate-float"
-      />
+      {/* Wrapper div with pseudo-element for glow effect */}
+      <div className="relative flex items-center justify-center mt-24 mb-5">
+        <div className="absolute inset-0 bg-blue-900 rounded-full blur-lg opacity-70 scale-125"></div>
+        <img
+          src="images/cover.png"
+          alt="Banner image"
+          className="h-40 rounded-full relative sm:h-52 lg:h-64 animate-float"
+        />
+      </div>
       <h1 className="text-2xl sm:text-4xl md:text-6xl font-semibold text-shadow-md animate-fadeIn">
         <span className="lg:hidden">- MUHAMMAD ARY W -</span>
         <span className="hidden lg:block">- MUHAMMAD ARY WIDODO -</span>
@@ -16,7 +20,7 @@ function Cover({ setCover }) {
       <p className="text-lg sm:text-xl md:text-2xl font-light mt-4 animate-fadeIn">
         Backend Developer
       </p>
-      <p className="text-center text-base sm:text-lg md:text-lg font-normal max-w-4xl mt-5 mb-8 px-4">
+      <p className="text-center text-base sm:text-lg md:text-lg font-normal max-w-4xl mt-5 md:mb-8 mb-3 px-4">
         I build secure, scalable, and efficient systems that drive your digital
         products to success. Let’s turn your complex challenges into seamless
         solutions with robust architecture and powerful integrations.
@@ -27,7 +31,7 @@ function Cover({ setCover }) {
       >
         Find more
       </button>
-      <div className="h-1 w-1/2 bg-orange rounded-lg mt-10"></div>
+      <div className="h-1 w-1/2 bg-orange rounded-lg md:mt-10 mt-6"></div>
       <div className="flex space-x-12 text-4xl sm:text-5xl mt-8 ">
         <a
           href="https://www.instagram.com/ary_code"

@@ -265,6 +265,15 @@ export const portfolioList = [
 
 export const testimonial = [
   {
+    name: "Fajar Ega Firmansyah",
+    review:
+      "Mas ary merupakan sosok yang pekerja keras serta skill beliau dalam IT dan memimpin tim developer sangat baik.",
+    designation: "Senior Mobile Developer",
+    linkedin: "https://id.linkedin.com/in/fajar-ega-firmansyah-b60992145",
+    image:
+      "https://media.licdn.com/dms/image/v2/D5603AQHfhibxmH4wLQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1685804182864?e=1735776000&v=beta&t=5-c9pceqhMmxkwvR-lI32F8b9lnFifh45ZiRJCFFsow",
+  },
+  {
     name: "Agus Setiawan",
     review:
       "Mas Ary adalah mentor backend yang luar biasa. Dia menjelaskan teknikal skill dengan cara menarik dan sabar menghadapi semua pertanyaan saya.",
@@ -284,14 +293,6 @@ export const testimonial = [
   },
   {
     name: "Ronaldo",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque id reprehenderit molestias ut vero voluptatem. Eveniet fuga vero explicabo adipisci debitis.",
-    designation: "Football Player",
-    image:
-      "https://media.licdn.com/dms/image/v2/D5603AQFpnbUJSvKAfw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1692162602148?e=1735776000&v=beta&t=rRN4NPAH_VdNc93N26hbl8K0XblbabcEP-W_SJSASQI",
-  },
-  {
-    name: "Messi",
     review:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque id reprehenderit molestias ut vero voluptatem. Eveniet fuga vero explicabo adipisci debitis.",
     designation: "Youtuber",

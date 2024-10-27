@@ -13,9 +13,9 @@ function TestimonialCard({ name, image, review, designation, linkedin }) {
         <p className="text-xl font-bold mb-3">{designation}</p>
       </div>
       <div className="flex flex-col gap-4 p-4 justify-center text-slate-900 items-center">
-        <p className="text-center h-40">{review}</p>
+        <p className="text-center h-32">{review}</p>
         <a
-          className="bg-gradient-to-r from-blue-500 to-purple-600 py-3 px-4 rounded-md text-white hover:scale-105 active:scale-95"
+          className="bg-gradient-to-r from-blue-500 to-purple-600 py-2 px-4 rounded-md text-white hover:scale-105 active:scale-95"
           href={linkedin}
           target="_blank"
         >
