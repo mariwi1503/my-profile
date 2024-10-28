@@ -264,13 +264,26 @@ export const portfolioList = [
     imagePath: "portfolio/karakterku.png",
     description:
       "Karakterku is an application created as an aid for one of our clients who is completing their master's degree at a university.",
-    ownership: "This Product is currently owned Miftahul, My client",
+    ownership: "This Product is currently owned by Miftahul, My client",
     techStack: ["Nodejs", "React", "Tailwind", "Express"],
     role: "Backend Developer",
     status: "private",
     website: "",
     contribution:
       "building the server-side application that powers the web app and being involved in all backend features, as I was the sole backend developer",
+  },
+  {
+    name: "POS Walidain",
+    imagePath: "portfolio/pos.png",
+    description:
+      "This is a point of sales application created specifically for the management of goods at the “Walidain” store.",
+    ownership: "This Product is currently owned by “Walidain” store.",
+    techStack: ["Nodejs", "Next", "React Native", "Tailwind", "Nest", "Prisma"],
+    role: "Backend Developer",
+    status: "private",
+    website: "",
+    contribution:
+      "building the server-side application that powers both web and mobile platforms",
   },
 ];
 
