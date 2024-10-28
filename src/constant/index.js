@@ -298,6 +298,15 @@ export const testimonial = [
       "https://media.licdn.com/dms/image/v2/D5603AQHfhibxmH4wLQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1685804182864?e=1735776000&v=beta&t=5-c9pceqhMmxkwvR-lI32F8b9lnFifh45ZiRJCFFsow",
   },
   {
+    name: "Riovaldo Todoan",
+    review:
+      "Ary adalah seorang developer yang cekatan dan sangat profesional. Mampu membangun sebuah sistem yang solid dan sangat menyenangkan bekerja sama dengan beliau.",
+    designation: "Quality Assurance Engineer",
+    image:
+      "https://media.licdn.com/dms/image/v2/D5603AQGuc2XT6coJaQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696344648441?e=1735776000&v=beta&t=Wb-6pdQe2ncO62ljgg7xO9Dq6ciy7vXDx-iH0Jivx6c",
+    linkedin: "https://www.linkedin.com/in/todoantodoan/",
+  },
+  {
     name: "Agus Setiawan",
     review:
       "Mas Ary adalah mentor backend yang luar biasa. Dia menjelaskan teknikal skill dengan cara menarik dan sabar menghadapi semua pertanyaan saya.",
