@@ -1,11 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import TestimonialCard from "./TestimonialCard";
 import { testimonial } from "../constant";
+import TestimonialModal from "../modals/TestimonialModal";
 
 function Testimonial() {
+  const [selectedReview, setSelectedReview] = useState(null);
+
+  const handleReadMore = (item) => {
+    setSelectedReview(item);
+  };
+
+  const closeModal = () => {
+    setSelectedReview(null);
+  };
+
   const settings = {
     dots: true,
     infinite: false,
@@ -13,20 +24,11 @@ function Testimonial() {
     slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 767,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
+      { breakpoint: 1024, settings: { slidesToShow: 2 } },
+      { breakpoint: 767, settings: { slidesToShow: 1 } },
     ],
   };
+
   return (
     <section id="testimony" className="w-full mx-auto px-5">
       <div className="mb-5">
@@ -36,10 +38,18 @@ function Testimonial() {
       <div className="px-2">
         <Slider {...settings}>
           {testimonial.map((item, index) => (
-            <TestimonialCard key={index + 1} {...item} />
+            <TestimonialCard
+              key={index}
+              {...item}
+              onReadMore={() => handleReadMore(item)}
+            />
           ))}
         </Slider>
       </div>
+
+      {selectedReview && (
+        <TestimonialModal item={selectedReview} onClose={closeModal} />
+      )}
     </section>
   );
 }

@@ -289,6 +289,15 @@ export const portfolioList = [
 
 export const testimonial = [
   {
+    name: "Alamanda Shantika",
+    review:
+      "Ary has been a true inspiration for all of us at BINAR. His passion for learning, regardless of the obstacles, reflects a resilience that inspires everyone. Ary’s journey reminds us that age is never a limitation when it comes to growth and self-improvement. Where he stands today is the result of that persistence and hard work. We are proud to have been part of his story and can’t wait to see him continue to inspire and create meaningful impact for Indonesia.",
+    designation: "CEO Binar",
+    linkedin: "https://id.linkedin.com/in/alamanda-shantika-santoso",
+    image:
+      "https://media.licdn.com/dms/image/v2/D5603AQFqxPHuHa7c-w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1681504920791?e=1735776000&v=beta&t=4dqcIN6mJIhcY8Guoo6xHS8QcBy74D_yrrpiqgw2_VA",
+  },
+  {
     name: "Fajar Ega Firmansyah",
     review:
       "Mas ary merupakan sosok yang pekerja keras serta skill beliau dalam IT dan memimpin tim developer sangat baik.",
@@ -309,7 +318,7 @@ export const testimonial = [
   {
     name: "Agus Setiawan",
     review:
-      "Mas Ary adalah mentor backend yang luar biasa. Dia menjelaskan teknikal skill dengan cara menarik dan sabar menghadapi semua pertanyaan saya.",
+      "Mas Ary adalah mentor saya di  backend. Beliau luar biasa, tidak hanya menjelaskan teknikal skill yang kuat, tetapi juga memperlihatkan indahnya backend. Mas Ary sangat baik dan sabar menghadapi pertanyaan-pertanyaan  saya. Tidak ada kata yang pas kecuali Jazakkalahu Khairan untuk ilmu dan semangatnya. Belajar dengan beliau selalu ada pengetahuan baru dan semangat baru.",
     designation: "Guru SD",
     image:
       "https://media.licdn.com/dms/image/v2/D5635AQFvSQr-5MbuEQ/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1703048158142?e=1730620800&v=beta&t=ZsUSugwzyA0t2Tzqj5BHbdjFmzwK9cA48E6hI1_zsFE",
@@ -318,18 +327,19 @@ export const testimonial = [
   {
     name: "Widodo",
     review:
-      "Beliau adalah orang yang berjasa dalam karir saya di dunia programming, khususnya di bidang Backend Developer. Berawal kenal di media sosial sampai menjadi mentor.",
+      "Beliau adalah salah satu orang yang berjasa dalam karir saya di dunia programming, khususnya di bidang Backend Developer. Berawal kenal di salah satu media sosial sampai menjadi mentor saya dalam mendalami bidang ini.",
     designation: "Backend developer",
     linkedin: "https://www.linkedin.com/in/widodo-341a45307",
     image:
       "https://media.licdn.com/dms/image/v2/D5603AQG1uZrilEkrKw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729311302259?e=1735776000&v=beta&t=x1Uip9yc5Nf3O8I3B3eW5reqCnSG7l4ofdhDueu2_jM",
   },
   {
-    name: "Ronaldo",
+    name: "Irfan Nesya",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque id reprehenderit molestias ut vero voluptatem. Eveniet fuga vero explicabo adipisci debitis.",
-    designation: "Youtuber",
+      "Mas Ari seorang mentor yang baik dan inspirator dalam career, dia bersedia mengajarkan hal yang sama berulang kali jika masih belum bisa dimengerti dan menjelaskannya dengan sabar. Dengan pengalamannya yang luar biasa di bidang backend penjelasannya menjadi logis dan bisa diterima oleh semua orang.",
+    designation: "Freelance",
+    linkedin: "https://www.linkedin.com/in/irfannesya",
     image:
-      "https://media.licdn.com/dms/image/v2/D5603AQFpnbUJSvKAfw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1692162602148?e=1735776000&v=beta&t=rRN4NPAH_VdNc93N26hbl8K0XblbabcEP-W_SJSASQI",
+      "https://media.licdn.com/dms/image/v2/D5635AQENhaKz4F7Kog/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1711027409320?e=1730768400&v=beta&t=JIkqdcAq7Bb0pFAzppYXWWv8mXKmlHjqYqMTTmK74Rs",
   },
 ];
