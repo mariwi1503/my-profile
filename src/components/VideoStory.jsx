@@ -1,9 +1,9 @@
 function VideoStory() {
   return (
-    <div className="p-5 ">
+    <div className="mt-10">
       <video
         src="video/story.mp4"
-        className="w-full h-full object-cover rounded-lg"
+        className="w-full max-h-[510px] object-cover rounded-lg"
         controls
         autoPlay
         // loop

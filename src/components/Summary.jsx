@@ -10,7 +10,7 @@ function Summary() {
       <div className="mt-3 md:mt-24 px-5 w-full md:w-2/3">
         <h3 className="text-3xl sm:text-4xl font-medium">Summary</h3>
         <div className="h-1 w-28 bg-orange rounded-lg mt-2"></div>
-        <br />
+        {/* <br /> */}
         {/* for mobile phone */}
         <p className="text-justify text-base sm:text-lg block md:hidden">
           I was raised in a family of farmers and my first job was working on
@@ -48,7 +48,7 @@ function Summary() {
         </p>
       </div>
       {/* video container */}
-      <div className="md:mt-24 px-5 w-full md:w-1/3">
+      <div className="md:mt-24 pl-5 pr-5 md:pr-0 w-full md:w-1/3">
         <VideoStory />
       </div>
     </section>
