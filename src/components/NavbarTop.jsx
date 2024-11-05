@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { navMenu } from "../constant";
 import { GiHamburgerMenu } from "react-icons/gi"; // Ikon hamburger
 import { TiThMenu } from "react-icons/ti";
+import { Link } from "react-router-dom";
 
 function NavbarTop({ setCover }) {
   const [isVisible, setIsVisible] = useState(true);
@@ -41,19 +42,25 @@ function NavbarTop({ setCover }) {
         } hidden md:block border-[3px] border-primary`}
       >
         <div className="flex gap-5">
-          {navMenu.map((menu, index) => (
-            <a
-              key={index}
-              href={`#${menu.link}`}
-              className="px-4 py-1 rounded-lg transition-colors duration-300 hover:bg-primary hover:text-gray-200"
-              onClick={() => {
-                menu.title === "Home" && setCover(true);
-                closeMenu(); // Tutup menu jika di klik
-              }}
-            >
-              {menu.title}
-            </a>
-          ))}
+          {navMenu.map((menu, index) => {
+            return menu.title === "Home" ? (
+              <Link
+                key={index}
+                to="/"
+                className="px-4 py-1 rounded-lg transition-colors duration-300 hover:bg-primary hover:text-gray-200"
+              >
+                {menu.title}
+              </Link>
+            ) : (
+              <a
+                key={index}
+                href={`#${menu.link}`}
+                className="px-4 py-1 rounded-lg transition-colors duration-300 hover:bg-primary hover:text-gray-200"
+              >
+                {menu.title}
+              </a>
+            );
+          })}
         </div>
       </nav>
 
@@ -74,19 +81,28 @@ function NavbarTop({ setCover }) {
         } w-1/2 md:w-1/3 border-l border-primary`}
       >
         <div className="flex flex-col p-5">
-          {navMenu.map((menu, index) => (
-            <a
-              key={index}
-              href={`#${menu.link}`}
-              className="py-2 text-lg font-semibold transition-colors duration-300 hover:bg-primary hover:text-gray-200"
-              onClick={() => {
-                menu.title === "Home" && setCover(true);
-                closeMenu(); // Tutup menu saat item diklik
-              }}
-            >
-              {menu.title}
-            </a>
-          ))}
+          {navMenu.map((menu, index) => {
+            return menu.title === "Home" ? (
+              <Link
+                key={index}
+                to="/"
+                className="px-4 py-1 rounded-lg transition-colors duration-300 hover:bg-primary hover:text-gray-200"
+              >
+                {menu.title}
+              </Link>
+            ) : (
+              <a
+                key={index}
+                href={`#${menu.link}`}
+                className="px-4 py-1 rounded-lg transition-colors duration-300 hover:bg-primary hover:text-gray-200"
+                onClick={() => {
+                  closeMenu();
+                }}
+              >
+                {menu.title}
+              </a>
+            );
+          })}
         </div>
       </div>
     </div>

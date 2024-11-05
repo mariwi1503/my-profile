@@ -1,7 +1,8 @@
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaLinkedin, FaSquareInstagram, FaDiscord } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
-function Cover({ setCover }) {
+function Cover() {
   return (
     <div className="h-screen flex flex-col items-center text-gray-200">
       {/* Wrapper div with pseudo-element for glow effect */}
@@ -25,12 +26,12 @@ function Cover({ setCover }) {
         products to success. Let’s turn your complex challenges into seamless
         solutions with robust architecture and powerful integrations.
       </p>
-      <button
-        onClick={() => setCover(false)}
+      <Link
+        to="/profile"
         className="bg-white text-primary font-bold py-3 px-6 rounded-full transition-transform duration-200 hover:scale-105 active:scale-95"
       >
         Find more
-      </button>
+      </Link>
       <div className="h-1 w-1/2 bg-orange rounded-lg md:mt-10 mt-6"></div>
       <div className="flex space-x-12 text-4xl sm:text-5xl mt-8 ">
         <a
