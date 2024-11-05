@@ -321,7 +321,7 @@ export const testimonial = [
       "Mas Ary adalah mentor saya di  backend. Beliau luar biasa, tidak hanya menjelaskan teknikal skill yang kuat, tetapi juga memperlihatkan indahnya backend. Mas Ary sangat baik dan sabar menghadapi pertanyaan-pertanyaan  saya. Tidak ada kata yang pas kecuali Jazakkalahu Khairan untuk ilmu dan semangatnya. Belajar dengan beliau selalu ada pengetahuan baru dan semangat baru.",
     designation: "Guru SD",
     image:
-      "https://media.licdn.com/dms/image/v2/D5635AQFvSQr-5MbuEQ/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1703048158142?e=1730620800&v=beta&t=ZsUSugwzyA0t2Tzqj5BHbdjFmzwK9cA48E6hI1_zsFE",
+      "https://media.licdn.com/dms/image/v2/D5635AQFvSQr-5MbuEQ/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1703048158142?e=1731412800&v=beta&t=8dlOWLXqDo89fm2fomW4qScBEdf7x-e0v-Brgh7QXJ0",
     linkedin: "https://www.linkedin.com/in/agus-setiawan-50657a266",
   },
   {
@@ -340,6 +340,14 @@ export const testimonial = [
     designation: "Freelance",
     linkedin: "https://www.linkedin.com/in/irfannesya",
     image:
-      "https://media.licdn.com/dms/image/v2/D5635AQENhaKz4F7Kog/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1711027409320?e=1730768400&v=beta&t=JIkqdcAq7Bb0pFAzppYXWWv8mXKmlHjqYqMTTmK74Rs",
+      "https://media.licdn.com/dms/image/v2/D5635AQENhaKz4F7Kog/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1711027409320?e=1731412800&v=beta&t=FfF30Zx6KgkzrToWxPV9uRS2UX09V8jKhK-BbikpLv4",
+  },
+  {
+    name: "Rabiatul A",
+    review:
+      "Tak ada kata yang cukup untuk menggambarkan betapa bersyukurnya saya memiliki mentor seperti Kak Arie. Dari awal hingga saat ini, setiap ilmu yang dibagikannya selalu disampaikan dengan penuh kesabaran dan ketulusan yang luar biasa, seolah beliau benar-benar memahami apa yang kami butuhkan untuk berkembang. Kak Arie bukan hanya menunjukkan profesionalisme sebagai seorang Backend Developer, tetapi juga hadir sebagai senior yang penuh rasa peduli, yang selalu siap membimbing dengan sepenuh hati. Beliau tak hanya melampaui harapan saya, tetapi juga menunjukkan kebaikan dan ketulusan yang tak terhitung.",
+    linkedin: "https://www.linkedin.com/in/findabbyhere-a-4a99a0336",
+    image:
+      "https://media.licdn.com/dms/image/v2/D4D03AQGCv9YnRDtFIQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730787538541?e=1736380800&v=beta&t=VYNhdngKfrCN63IosZDdrWgjrxktZwK565WzBxrY29s",
   },
 ];
