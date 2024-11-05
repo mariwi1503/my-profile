@@ -347,6 +347,7 @@ export const testimonial = [
     review:
       "Tak ada kata yang cukup untuk menggambarkan betapa bersyukurnya saya memiliki mentor seperti Kak Arie. Dari awal hingga saat ini, setiap ilmu yang dibagikannya selalu disampaikan dengan penuh kesabaran dan ketulusan yang luar biasa, seolah beliau benar-benar memahami apa yang kami butuhkan untuk berkembang. Kak Arie bukan hanya menunjukkan profesionalisme sebagai seorang Backend Developer, tetapi juga hadir sebagai senior yang penuh rasa peduli, yang selalu siap membimbing dengan sepenuh hati. Beliau tak hanya melampaui harapan saya, tetapi juga menunjukkan kebaikan dan ketulusan yang tak terhitung.",
     linkedin: "https://www.linkedin.com/in/findabbyhere-a-4a99a0336",
+    designation: "Resting Entrepreneur",
     image:
       "https://media.licdn.com/dms/image/v2/D4D03AQGCv9YnRDtFIQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730787538541?e=1736380800&v=beta&t=VYNhdngKfrCN63IosZDdrWgjrxktZwK565WzBxrY29s",
   },
