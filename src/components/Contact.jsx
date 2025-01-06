@@ -1,7 +1,20 @@
 import { Button, Input, Textarea, Typography } from "@material-tailwind/react";
+import { useState } from "react";
+import { ExclamationTriangleIcon } from "@heroicons/react/24/solid";
 import LeafletMap from "./LeafletMap";
 
 export function Contact() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleSendMessage = (event) => {
+    event.preventDefault();
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <section id="contact" className="px-5 mt-12">
       <div className="mb-6">
@@ -18,7 +31,11 @@ export function Contact() {
           <LeafletMap />
         </div>
         <div className="w-full md:w-1/2">
-          <form action="#" className="flex flex-col gap-3 text-md mx-auto">
+          <form
+            action="#"
+            className="flex flex-col gap-3 text-md mx-auto"
+            onSubmit={handleSendMessage}
+          >
             <div className="flex gap-3 justify-between">
               <div>
                 <Typography
@@ -105,12 +122,35 @@ export function Contact() {
                 }}
               />
             </div>
-            <Button className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white">
+            <Button
+              type="submit"
+              className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white"
+            >
               Send message
             </Button>
           </form>
         </div>
       </div>
+
+      {/* Modal */}
+      {isModalOpen && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+          <div className="bg-white rounded-lg p-6 max-w-md w-full shadow-lg text-center text-primary">
+            <ExclamationTriangleIcon className="w-12 h-12 text-yellow-500 mx-auto mb-4" />
+            <h4 className="text-xl font-semibold mb-2 ">Feature Under Development</h4>
+            <p className="mb-4">
+              This feature is currently under development. Please check back
+              later!
+            </p>
+            <button
+              onClick={closeModal}
+              className="bg-gradient-to-r from-blue-500 to-purple-600 text-white w-full px-4 py-2 rounded-md"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
     </section>
   );
 }
