@@ -285,6 +285,34 @@ export const portfolioList = [
     contribution:
       "building the server-side application that powers both web and mobile platforms",
   },
+  {
+    name: "Pilkada Sumbawa - NTB 2024",
+    imagePath: "portfolio/pilkada.png",
+    description:
+      "This website was specifically created for my family and friends who are eagerly awaiting the election results in NTB in 2024.",
+    ownership:
+      "This Product is fully owned by me",
+    techStack: ["Nodejs", "React", "Tailwind"],
+    role: "Developer",
+    status: "beta",
+    website: "https://pilkada-sumbawa-2024.vercel.app/",
+    contribution:
+      "Bulding the website",
+  },
+  {
+    name: "Bale Ballon",
+    imagePath: "portfolio/bale.png",
+    description:
+      "I created this website to help grow my family's business, which specializes in decoration services.",
+    ownership:
+      "This Product is fully owned by me",
+    techStack: ["Nodejs", "React", "Tailwind"],
+    role: "Developer",
+    status: "beta",
+    website: "https://bale-ballon.vercel.app/",
+    contribution:
+      "Bulding the website",
+  },
 ];
 
 export const testimonial = [
