@@ -38,7 +38,7 @@ function Summary() {
           offer a diverse set of supporting skills, including the use of Redis,
           Sequelize, and Prisma as ORMs, document generation (PDF, Excel, DOCX),
           Xendit for payment gateway integration, AWS S3 for storage, and
-          authentication to secure APIs, among other capabilities.
+          authentication to secure APIs, Additionally, I am capable of working with frontend technologies, including React and HTML, allowing me to contribute to full-stack development projects..
           <br />
           <br />I possess a strong work ethic and am always eager to learn new
           things. Furthermore, I am skilled in time management, possess
