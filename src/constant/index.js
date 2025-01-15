@@ -319,67 +319,66 @@ export const testimonial = [
   {
     name: "Alamanda Shantika",
     review:
-      "Ary has been a true inspiration for all of us at BINAR. His passion for learning, regardless of the obstacles, reflects a resilience that inspires everyone. Ary’s journey reminds us that age is never a limitation when it comes to growth and self-improvement. Where he stands today is the result of that persistence and hard work. We are proud to have been part of his story and can’t wait to see him continue to inspire and create meaningful impact for Indonesia.",
+      "Ary has been a true inspiration for all of us at BINAR. **His passion for learning**, regardless of the obstacles, reflects a resilience that inspires everyone. Ary’s journey reminds us that age is never a limitation when it comes to growth and self-improvement. Where he stands today is the result of that persistence and hard work. We are proud to have been part of his story and can’t wait to see him continue to inspire and create meaningful impact for Indonesia.",
     designation: "CEO Binar",
     linkedin: "https://id.linkedin.com/in/alamanda-shantika-santoso",
-    image: 'images/alamanda.jpeg'
-    // image:
-    //   "https://media.licdn.com/dms/image/v2/D5603AQFqxPHuHa7c-w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1681504920791?e=1735776000&v=beta&t=4dqcIN6mJIhcY8Guoo6xHS8QcBy74D_yrrpiqgw2_VA",
-  },
+    image: 'images/alamanda.jpeg'},
   {
-    name: "Fajar Ega Firmansyah",
+    name: "Andi Satriawan L",
     review:
-      "Mas ary merupakan sosok yang pekerja keras serta skill beliau dalam IT dan memimpin tim developer sangat baik.",
-    designation: "Senior Mobile Developer",
-    linkedin: "https://id.linkedin.com/in/fajar-ega-firmansyah-b60992145",
-    image: 'images/fajar.jpeg'
-    // image:
-    //   "https://media.licdn.com/dms/image/v2/D5603AQHfhibxmH4wLQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1685804182864?e=1735776000&v=beta&t=5-c9pceqhMmxkwvR-lI32F8b9lnFifh45ZiRJCFFsow",
-  },
-  {
-    name: "Riovaldo Todoan",
-    review:
-      "Ary adalah seorang developer yang cekatan dan sangat profesional. Mampu membangun sebuah sistem yang solid dan sangat menyenangkan bekerja sama dengan beliau.",
-    designation: "Quality Assurance Engineer",
-    image: 'images/rio.jpeg',
-    // image:
-    //   "https://media.licdn.com/dms/image/v2/D5603AQGuc2XT6coJaQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696344648441?e=1735776000&v=beta&t=Wb-6pdQe2ncO62ljgg7xO9Dq6ciy7vXDx-iH0Jivx6c",
-    linkedin: "https://www.linkedin.com/in/todoantodoan/",
-  },
-  {
-    name: "Agus Setiawan",
-    review:
-      "Mas Ary adalah mentor saya di  backend. Beliau luar biasa, tidak hanya menjelaskan teknikal skill yang kuat, tetapi juga memperlihatkan indahnya backend. Mas Ary sangat baik dan sabar menghadapi pertanyaan-pertanyaan  saya. Tidak ada kata yang pas kecuali Jazakkalahu Khairan untuk ilmu dan semangatnya. Belajar dengan beliau selalu ada pengetahuan baru dan semangat baru.",
-    designation: "Guru SD",
-    image: 'images/agus.jpeg',
-    // image:
-    //   "https://media.licdn.com/dms/image/v2/D5635AQFvSQr-5MbuEQ/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1703048158142?e=1731412800&v=beta&t=8dlOWLXqDo89fm2fomW4qScBEdf7x-e0v-Brgh7QXJ0",
-    linkedin: "https://www.linkedin.com/in/agus-setiawan-50657a266",
+      "Knowing Ary since his early days in tech has been inspiring. **His beginner’s mindset and hunger** for growth make him stand out. He’s always eager to learn, embrace challenges, and improve. A true asset to any team—keep shining, Ary! 🚀",
+    designation: "Career Consultant",
+    linkedin: "https://www.linkedin.com/in/andisatr",
+    image: 'images/andi.jpeg'
   },
   {
     name: "Widodo",
     review:
-      "Beliau adalah salah satu orang yang berjasa dalam karir saya di dunia programming, khususnya di bidang Backend Developer. Berawal kenal di salah satu media sosial sampai menjadi mentor saya dalam mendalami bidang ini.",
+      "Beliau adalah salah satu orang yang **berjasa dalam karir saya di dunia programming**, khususnya di bidang Backend Developer. Berawal kenal di salah satu media sosial sampai menjadi mentor saya dalam mendalami bidang ini.",
     designation: "Backend developer",
     linkedin: "https://www.linkedin.com/in/widodo-341a45307",
     image: 'images/widodo.jpeg',
-    // image:
-    //   "https://media.licdn.com/dms/image/v2/D5603AQG1uZrilEkrKw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729311302259?e=1735776000&v=beta&t=x1Uip9yc5Nf3O8I3B3eW5reqCnSG7l4ofdhDueu2_jM",
+  },
+  {
+    name: "Fajar Ega Firmansyah",
+    review:
+      "Mas ary merupakan sosok yang pekerja keras serta skill beliau dalam IT dan **memimpin tim** developer sangat baik.",
+    designation: "Senior Mobile Developer",
+    linkedin: "https://id.linkedin.com/in/fajar-ega-firmansyah-b60992145",
+    image: 'images/fajar.jpeg'},
+  {
+    name: "Riovaldo Todoan",
+    review:
+      "Ary adalah seorang developer yang **cekatan dan sangat profesional.** Mampu membangun sebuah sistem yang solid dan sangat menyenangkan bekerja sama dengan beliau.",
+    designation: "QA Engineer",
+    image: 'images/rio.jpeg',linkedin: "https://www.linkedin.com/in/todoantodoan/",
+  },
+  {
+    name: "Agus Setiawan",
+    review:
+      "Mas Ary adalah mentor saya di  backend. **Beliau luar biasa**, tidak hanya menjelaskan teknikal skill yang kuat, tetapi juga memperlihatkan indahnya backend. Mas Ary sangat baik dan sabar menghadapi pertanyaan-pertanyaan  saya. Tidak ada kata yang pas kecuali Jazakkalahu Khairan untuk ilmu dan semangatnya. Belajar dengan beliau selalu ada pengetahuan baru dan semangat baru.",
+    designation: "Fullstack Developer",
+    image: 'images/agus.jpeg', linkedin: "https://www.linkedin.com/in/agus-setiawan-50657a266",
+  },
+  {
+    name: "Widodo",
+    review:
+      "Beliau adalah salah satu orang yang **berjasa dalam karir saya di dunia programming**, khususnya di bidang Backend Developer. Berawal kenal di salah satu media sosial sampai menjadi mentor saya dalam mendalami bidang ini.",
+    designation: "Backend developer",
+    linkedin: "https://www.linkedin.com/in/widodo-341a45307",
+    image: 'images/widodo.jpeg',
   },
   {
     name: "Irfan Nesya",
     review:
-      "Mas Ari seorang mentor yang baik dan inspirator dalam career, dia bersedia mengajarkan hal yang sama berulang kali jika masih belum bisa dimengerti dan menjelaskannya dengan sabar. Dengan pengalamannya yang luar biasa di bidang backend penjelasannya menjadi logis dan bisa diterima oleh semua orang.",
+      "Mas Ari seorang mentor yang baik dan **inspirator dalam career**, dia bersedia mengajarkan hal yang sama berulang kali jika masih belum bisa dimengerti dan menjelaskannya dengan sabar. Dengan pengalamannya yang luar biasa di bidang backend penjelasannya menjadi logis dan bisa diterima oleh semua orang.",
     designation: "Freelance",
     linkedin: "https://www.linkedin.com/in/irfannesya",
-    image: 'images/irfan.jpeg',
-    // image:
-    //   "https://media.licdn.com/dms/image/v2/D5635AQENhaKz4F7Kog/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1711027409320?e=1731412800&v=beta&t=FfF30Zx6KgkzrToWxPV9uRS2UX09V8jKhK-BbikpLv4",
-  },
+    image: 'images/irfan.jpeg',},
   {
     name: "Rabiatul A",
     review:
-      "Tak ada kata yang cukup untuk menggambarkan betapa bersyukurnya saya memiliki mentor seperti Kak Arie. Dari awal hingga saat ini, setiap ilmu yang dibagikannya selalu disampaikan dengan penuh kesabaran dan ketulusan yang luar biasa, seolah beliau benar-benar memahami apa yang kami butuhkan untuk berkembang. Kak Arie bukan hanya menunjukkan profesionalisme sebagai seorang Backend Developer, tetapi juga hadir sebagai senior yang penuh rasa peduli, yang selalu siap membimbing dengan sepenuh hati. Beliau tak hanya melampaui harapan saya, tetapi juga menunjukkan kebaikan dan ketulusan yang tak terhitung.",
+      "Tak ada kata yang cukup untuk menggambarkan betapa bersyukurnya saya memiliki mentor seperti Kak Arie. Dari awal hingga saat ini, setiap ilmu yang dibagikannya selalu disampaikan dengan penuh kesabaran dan ketulusan yang luar biasa, seolah beliau benar-benar memahami apa yang kami butuhkan untuk berkembang. **Kak Arie bukan hanya menunjukkan profesionalisme sebagai seorang Backend Developer, tetapi juga hadir sebagai senior yang penuh rasa peduli**, yang selalu siap membimbing dengan sepenuh hati. Beliau tak hanya melampaui harapan saya, tetapi juga menunjukkan kebaikan dan ketulusan yang tak terhitung.",
     linkedin: "https://www.linkedin.com/in/findabbyhere-a-4a99a0336",
     designation: "Resting Entrepreneur",
     image:

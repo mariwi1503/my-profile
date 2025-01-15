@@ -48,7 +48,7 @@ function Testimonial() {
       </div>
 
       {selectedReview && (
-        <TestimonialModal item={selectedReview} onClose={closeModal} />
+        <TestimonialModal item={selectedReview} onClose={closeModal} isOpen={selectedReview ? true : false}/>
       )}
     </section>
   );

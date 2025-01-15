@@ -1,11 +1,34 @@
 import React, { useEffect } from "react";
 
-function TestimonialModal({ item, onClose }) {
+function TestimonialModal({ item, onClose, isOpen }) {
   const [isVisible, setIsVisible] = React.useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add("overflow-hidden"); // Mencegah scroll saat modal terbuka
+    } else {
+      document.body.classList.remove("overflow-hidden"); // Mengizinkan scroll lagi
+    }
+
+    return () => {
+      document.body.classList.remove("overflow-hidden");
+    };
+  }, [isOpen]);
 
   useEffect(() => {
     setIsVisible(true);
   }, []);
+
+  const renderReviewText = (text) => {
+    const parts = text.split(/(\*\*.*?\*\*)/);
+    return parts.map((part, index) => {
+      if (part.startsWith('**') && part.endsWith('**')) {
+        // return <strong key={index}>{part.slice(2, -2)}</strong>;
+        return <span key={index} className="text-orange font-extrabold">{part.slice(2, -2)}</span>
+      }
+      return part;
+    });
+  };
 
   return (
     <div className="fixed inset-0 flex items-center justify-center z-50 text-primary bg-black bg-opacity-50">
@@ -44,7 +67,7 @@ function TestimonialModal({ item, onClose }) {
           <span className="text-5xl font-bold text-white opacity-50 absolute -left-4 -top-2">
             “
           </span>
-          {item.review}
+          {renderReviewText(item.review)}
           <span className="text-5xl font-bold text-white opacity-50 absolute -right-4 -bottom-2">
             ”
           </span>
