@@ -332,12 +332,13 @@ export const testimonial = [
     image: 'images/andi.jpeg'
   },
   {
-    name: "Widodo",
+    name: "Syarip Mas'ud",
     review:
-      "Beliau adalah salah satu orang yang **berjasa dalam karir saya di dunia programming**, khususnya di bidang Backend Developer. Berawal kenal di salah satu media sosial sampai menjadi mentor saya dalam mendalami bidang ini.",
-    designation: "Backend developer",
-    linkedin: "https://www.linkedin.com/in/widodo-341a45307",
-    image: 'images/widodo.jpeg',
+      `Sampai testimoni ini saya buat, saya belum pernah bertemu dengan beliau, tetapi interaksi yang kami jalani selama bekerja bersama menunjukkan bahwa Ary adalah pribadi yang amanah dan dapat dipercaya. Ia selalu memberikan yang terbaik dalam pekerjaannya, menyelesaikan tugas dengan penuh tanggung jawab. 
+**InsyaAllah beliau adalah insan yang tidak hanya kompeten secara teknis, tetapi juga memiliki akhlak yang baik.**`,
+    designation: "Fullstack Developer",
+    linkedin: "https://www.linkedin.com/in/syarip-mas-ud-220023168/",
+    image: 'images/syarif.jpeg',
   },
   {
     name: "Fajar Ega Firmansyah",
