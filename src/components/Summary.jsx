@@ -18,11 +18,7 @@ function Summary() {
           and working as a motorcycle taxi driver. It wasn't until I discovered
           my passion for programming that I decided to pursue it as a career.
           <br />
-          <br />I possess a strong work ethic and am always eager to learn new
-          things. Furthermore, I am skilled in time management, possess
-          excellent communication skills, and am a logical thinker. I hold a
-          great deal of respect for others and am always willing to lend a
-          helping hand whenever necessary.
+          <br />I am a dedicated and experienced Backend Developer with a strong foundation in Node.js, particularly with Express.js and NestJS. I also bring a diverse set of supporting skills, including basic Frontend development using HTML, CSS, and React. Beyond technical expertise, I have the ability to lead and manage a team effectively, oversee the development process, and provide valuable suggestions to ensure the successful completion of projects.
         </p>
         {/* for bigger display */}
         <br />
@@ -33,12 +29,7 @@ function Summary() {
           my passion for programming that I decided to pursue it as a career.
           <br />
           <br />
-          I am a dedicated and experienced Backend Developer with a strong
-          foundation in Node.js, particularly with Express.js and NestJS. I
-          offer a diverse set of supporting skills, including the use of Redis,
-          Sequelize, and Prisma as ORMs, document generation (PDF, Excel, DOCX),
-          Xendit for payment gateway integration, AWS S3 for storage, and
-          authentication to secure APIs, Additionally, I am capable of working with frontend technologies, including React and HTML, allowing me to contribute to full-stack development projects..
+          I am a dedicated and experienced Backend Developer with a strong foundation in Node.js, particularly with Express.js and NestJS. I also bring a diverse set of supporting skills, including basic Frontend development using HTML, CSS, and React. Beyond technical expertise, I have the ability to lead and manage a team effectively, oversee the development process, and provide valuable suggestions to ensure the successful completion of projects.
           <br />
           <br />I possess a strong work ethic and am always eager to learn new
           things. Furthermore, I am skilled in time management, possess
