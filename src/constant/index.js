@@ -61,6 +61,10 @@ export const stackItem = [
   {
     name: "PostgreSQL",
     image: "icon/postgres.png",
+    
+  },{
+    name: "MongoDB",
+    image: "icon/mongo.png",
   },
   {
     name: "Git",
