@@ -139,8 +139,7 @@ export function Contact() {
             <ExclamationTriangleIcon className="w-12 h-12 text-yellow-500 mx-auto mb-4" />
             <h4 className="text-xl font-semibold mb-2 ">Feature Under Development</h4>
             <p className="mb-4">
-              This feature is currently under development. Please check back
-              later!
+              This feature is currently under development. As an alternative, you can contact me through <strong>LinkedIn, Instagram</strong>, and other social media platforms.
             </p>
             <button
               onClick={closeModal}
