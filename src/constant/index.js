@@ -192,34 +192,34 @@ export const experienceList = [
 ];
 
 export const portfolioList = [
-  {
-    name: "SIRI",
-    imagePath: "portfolio/siri.png",
-    description:
-      "The Smart Industry Readiness Index (SIRI) is the world’s first independent digital maturity assessment for manufacturers. It comprises a suite of frameworks and tools to help manufacturers – regardless of size and industry – start, scale, and sustain their manufacturing transformation journeys.",
-    ownership:
-      "This Product is fully owned by INCIT (International Center for Industrial Transformation).",
-    techStack: ["Nodejs", "Nest", "Prisma", "PosgreSQL", "React", "Tailwind"],
-    role: "Backend Developer",
-    status: "live",
-    website: "https://siri.incit.org/",
-    contribution:
-      "building the server-side application that powers the web app, in which I was involved in nearly 80% of all backend features",
-  },
-  {
-    name: "CoSIRI",
-    imagePath: "portfolio/cosiri.png",
-    description:
-      "The Consumer Sustainability Industry Readiness Index (COSIRI) is a comprehensive framework and set of tools designed to assist manufacturers, regardless of size or industry, to embed sustainability into all their operations.",
-    ownership:
-      "This Product is fully owned by INCIT (International Center for Industrial Transformation).",
-    techStack: ["Nodejs", "Nest", "Prisma", "PosgreSQL", "React", "Tailwind"],
-    role: "Backend Developer",
-    status: "live",
-    website: "https://cosiri.incit.org/",
-    contribution:
-      "building the server-side application that powers the web app, where I was involved in over 50% of all backend features",
-  },
+  // {
+  //   name: "SIRI",
+  //   imagePath: "portfolio/siri.png",
+  //   description:
+  //     "The Smart Industry Readiness Index (SIRI) is the world’s first independent digital maturity assessment for manufacturers. It comprises a suite of frameworks and tools to help manufacturers – regardless of size and industry – start, scale, and sustain their manufacturing transformation journeys.",
+  //   ownership:
+  //     "This Product is fully owned by INCIT (International Center for Industrial Transformation).",
+  //   techStack: ["Nodejs", "Nest", "Prisma", "PosgreSQL", "React", "Tailwind"],
+  //   role: "Backend Developer",
+  //   status: "live",
+  //   website: "https://siri.incit.org/",
+  //   contribution:
+  //     "building the server-side application that powers the web app, in which I was involved in nearly 80% of all backend features",
+  // },
+  // {
+  //   name: "CoSIRI",
+  //   imagePath: "portfolio/cosiri.png",
+  //   description:
+  //     "The Consumer Sustainability Industry Readiness Index (COSIRI) is a comprehensive framework and set of tools designed to assist manufacturers, regardless of size or industry, to embed sustainability into all their operations.",
+  //   ownership:
+  //     "This Product is fully owned by INCIT (International Center for Industrial Transformation).",
+  //   techStack: ["Nodejs", "Nest", "Prisma", "PosgreSQL", "React", "Tailwind"],
+  //   role: "Backend Developer",
+  //   status: "live",
+  //   website: "https://cosiri.incit.org/",
+  //   contribution:
+  //     "building the server-side application that powers the web app, where I was involved in over 50% of all backend features",
+  // },
   {
     name: "Hulu Cash",
     imagePath: "portfolio/hulucash.png",
