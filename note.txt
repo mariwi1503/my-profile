@@ -1,0 +1,32 @@
+<div className="text-center mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
+            About Me
+          </h2>
+          {/* Divider */}
+          <div className="w-32 h-1 bg-gradient-to-r from-orange-500 to-secondary rounded-full mx-auto mb-8"></div>
+          <p className="text-lg sm:text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed text-pretty">
+            I&apos;m a passionate Backend Developer with over 3 years of
+            experience building scalable web applications and APIs. I specialize
+            in Node.js, NestJS, and modern database technologies, helping
+            businesses transform their digital infrastructure.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {highlights.map((item, index) => (
+            <Card
+              key={index}
+              className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+            >
+              <CardContent className="p-6 text-center">
+                <div className="text-primary mb-4 flex justify-center group-hover:scale-110 transition-transform duration-300">
+                  {item.icon}
+                </div>
+                <h3 className="text-xl font-semibold mb-3">{item.title}</h3>
+                <p className="text-gray-200 text-sm leading-relaxed">
+                  {item.description}
+                </p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
