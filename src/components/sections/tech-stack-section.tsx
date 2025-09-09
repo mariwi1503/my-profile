@@ -15,7 +15,7 @@ export function TechStackSection() {
           <div className="w-32 md:w-1/4 h-1 bg-gradient-to-r from-orange-500 to-secondary rounded-full mx-auto mb-6"></div>
           <p className="text-lg sm:text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed text-pretty">
             I work with modern technologies and frameworks to build robust,
-            scalable backend solutions that meet today&apos;s demanding
+            scalable solutions that meet today&apos;s demanding
             requirements.
           </p>
         </div>
