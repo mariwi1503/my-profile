@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.muhammad-ary.my.id/sitemap.xml

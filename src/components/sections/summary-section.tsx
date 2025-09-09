@@ -25,13 +25,10 @@ export function SummarySection() {
               discovered my passion for programming that I decided to pursue it
               as a career.
               <br />
-              <br />I am a dedicated and experienced Backend Developer with a
-              strong foundation in Node.js, particularly with Express.js and
-              NestJS. I also bring a diverse set of supporting skills, including
-              basic Frontend development using HTML, CSS, and React. Beyond
-              technical expertise, I have the ability to lead and manage a team
-              effectively, oversee the development process, and provide valuable
-              suggestions to ensure the successful completion of projects.
+              <br />I am a passionate and results-driven Backend Developer with a solid foundation in Node.js, specializing in Express.js and NestJS. In addition to backend expertise, I also possess strong Frontend development skills using HTML, CSS, JavaScript, React, and Next.js, allowing me to contribute across the full stack 
+              when needed. 
+              <br />
+              Beyond technical proficiency, I have proven experience in leading and managing teams, coordinating development processes, and driving collaboration to achieve project goals. With a combination of technical mastery and leadership ability, I strive to deliver efficient, scalable, and impactful solutions that bring real value to every project I work on.
             </p>
 
             {/* for bigger display */}
@@ -43,14 +40,10 @@ export function SummarySection() {
               discovered my passion for programming that I decided to pursue it
               as a career.
               <br />
+              <br />I am a passionate and results-driven Backend Developer with a solid foundation in Node.js, specializing in Express.js and NestJS. In addition to backend expertise, I also possess strong Frontend development skills using HTML, CSS, JavaScript, React, and Next.js, allowing me to contribute across the full stack 
+              when needed. 
               <br />
-              I am a dedicated and experienced Backend Developer with a strong
-              foundation in Node.js, particularly with Express.js and NestJS. I
-              also bring a diverse set of supporting skills, including basic
-              Frontend development using HTML, CSS, and React. Beyond technical
-              expertise, I have the ability to lead and manage a team
-              effectively, oversee the development process, and provide valuable
-              suggestions to ensure the successful completion of projects.
+              Beyond technical proficiency, I have proven experience in leading and managing teams, coordinating development processes, and driving collaboration to achieve project goals. With a combination of technical mastery and leadership ability, I strive to deliver efficient, scalable, and impactful solutions that bring real value to every project I work on.
               <br />
               <br />I possess a strong work ethic and am always eager to learn
               new things. Furthermore, I am skilled in time management, possess

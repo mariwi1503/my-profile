@@ -62,7 +62,7 @@ export function HeroSection() {
             href="https://wa.me/6285338714313"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-200 hover:text-primary transition-all duration-300 hover:scale-110 hover:rotate-12"
+            className="text-gray-200 hover:text-orange-500 transition-all duration-300 hover:scale-110 hover:rotate-12"
             aria-label="WhatsApp Contact"
           >
             <MessageCircle />
@@ -71,7 +71,7 @@ export function HeroSection() {
             href="https://www.instagram.com/ary_code"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-200 hover:text-primary transition-all duration-300 hover:scale-110 hover:rotate-12"
+            className="text-gray-200 hover:text-orange-500 transition-all duration-300 hover:scale-110 hover:rotate-12"
             aria-label="Instagram Profile"
           >
             <Instagram />
@@ -80,7 +80,7 @@ export function HeroSection() {
             href="https://www.linkedin.com/in/muhammad-ary-687552209/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-200 hover:text-primary transition-all duration-300 hover:scale-110 hover:rotate-12"
+            className="text-gray-200 hover:text-orange-500 transition-all duration-300 hover:scale-110 hover:rotate-12"
             aria-label="LinkedIn Profile"
           >
             <Linkedin />
@@ -89,7 +89,7 @@ export function HeroSection() {
             href="https://discord.com/users/834295200931250216"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-200 hover:text-primary transition-all duration-300 hover:scale-110 hover:rotate-12"
+            className="text-gray-200 hover:text-orange-500 transition-all duration-300 hover:scale-110 hover:rotate-12"
             aria-label="LinkedIn Profile"
           >
             <RiDiscordLine />

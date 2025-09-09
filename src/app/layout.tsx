@@ -10,6 +10,7 @@ const nunito = Nunito({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.muhammad-ary.my.id"),
   title: "Muhammad Ary Widodo - Backend Developer Portfolio",
   description:
     "Experienced Backend Developer specializing in Node.js, NestJS, and scalable API development. Building secure, efficient systems for digital transformation.",
@@ -37,7 +38,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Muhammad Ary Widodo" }],
   creator: "Muhammad Ary Widodo",
-  viewport: "width=device-width, initial-scale=1",
+  // viewport: "width=device-width, initial-scale=1",
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
@@ -48,7 +49,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Muhammad Ary Widodo - Backend Developer Portfolio",
     description: "Experienced Backend Developer specializing in Node.js, NestJS, and scalable API development.",
-    url: "https://arywidodo.dev",
+    url: "https://www.muhammad-ary.my.id",
     siteName: "Ary Widodo Portfolio",
     locale: "en_US",
     type: "website",
@@ -72,6 +73,11 @@ export const metadata: Metadata = {
     follow: true,
   },
   generator: "v0.app",
+}
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 }
 
 export default function RootLayout({
@@ -115,7 +121,7 @@ export default function RootLayout({
         {children}
         {/* Footer */}
         <div className="text-center mt-16 py-8 border-t border-border bg-slate-700">
-          <p className="">© 2024 Muhammad Ary Widodo. Built with Next.js and Tailwind CSS.</p>
+          <p className="">© 2025 Muhammad Ary Widodo</p>
         </div>
       </body>
     </html>

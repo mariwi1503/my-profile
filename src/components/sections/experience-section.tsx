@@ -131,7 +131,7 @@ export function ExperienceSection() {
                         selectedExperience.logo ||
                         "/placeholder.svg?height=60&width=60&query=company logo"
                       }
-                      alt={`${selectedExperience.company} logo`}
+                      alt={`${selectedExperience.company}`}
                       width={60}
                       height={60}
                       className="w-15 h-15 rounded-lg object-cover"
@@ -143,8 +143,10 @@ export function ExperienceSection() {
                       <p className="text-lg font-semibold">
                         {selectedExperience.role}
                       </p>
-                      <p className="text-sm text-muted-foreground">
-                        {selectedExperience.start} - {selectedExperience.end} •{" "}
+                      <p className="text-slate-800">
+                        {selectedExperience.start} - {selectedExperience.end}
+                      </p>
+                      <p>
                         {selectedExperience.city}, {selectedExperience.country}
                       </p>
                     </div>

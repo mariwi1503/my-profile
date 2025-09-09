@@ -1,68 +1,68 @@
-"use client"
+"use client";
 
-import { Card, CardContent } from "@/components/ui/card"
-import { Skeleton } from "@/components/ui/skeleton"
-import { testimonial } from "@/lib/constants"
-import { Linkedin, Quote, ChevronLeft, ChevronRight } from "lucide-react"
-import Image from "next/image"
-import { useState, useEffect, useCallback } from "react"
+import { Card, CardContent } from "@/components/ui/card";
+import { Skeleton } from "@/components/ui/skeleton";
+import { testimonial } from "@/lib/constants";
+import { Linkedin, Quote, ChevronLeft, ChevronRight } from "lucide-react";
+import Image from "next/image";
+import { useState, useEffect, useCallback } from "react";
 
 // Fungsi untuk parse **bold** dalam teks menjadi <strong>
 function parseBold(text: string) {
-  const parts = text.split(/\*\*(.*?)\*\*/g)
+  const parts = text.split(/\*\*(.*?)\*\*/g);
   return parts.map((part, idx) =>
     idx % 2 === 1 ? <strong key={idx}>{part}</strong> : part
-  )
+  );
 }
 
 export function TestimonySection() {
-  const [currentIndex, setCurrentIndex] = useState(0)
-  const [isAutoPlaying, setIsAutoPlaying] = useState(true)
-  const [itemsPerView, setItemsPerView] = useState(3)
-  const [isMounted, setIsMounted] = useState(false)
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const [itemsPerView, setItemsPerView] = useState(3);
+  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
-    setIsMounted(true)
+    setIsMounted(true);
 
     const getItemsPerView = () => {
-      if (window.innerWidth >= 1024) return 3
-      if (window.innerWidth >= 768) return 2
-      return 1
-    }
+      if (window.innerWidth >= 1024) return 3;
+      if (window.innerWidth >= 768) return 2;
+      return 1;
+    };
 
-    setItemsPerView(getItemsPerView())
+    setItemsPerView(getItemsPerView());
 
     const handleResize = () => {
-      setItemsPerView(getItemsPerView())
-      setCurrentIndex(0)
-    }
+      setItemsPerView(getItemsPerView());
+      setCurrentIndex(0);
+    };
 
-    window.addEventListener("resize", handleResize)
-    return () => window.removeEventListener("resize", handleResize)
-  }, [])
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
-  const maxIndex = Math.max(0, testimonial.length - itemsPerView)
+  const maxIndex = Math.max(0, testimonial.length - itemsPerView);
 
   const nextSlide = useCallback(() => {
-    setCurrentIndex((prev) => (prev >= maxIndex ? 0 : prev + 1))
-  }, [maxIndex])
+    setCurrentIndex((prev) => (prev >= maxIndex ? 0 : prev + 1));
+  }, [maxIndex]);
 
   const prevSlide = useCallback(() => {
-    setCurrentIndex((prev) => (prev <= 0 ? maxIndex : prev - 1))
-  }, [maxIndex])
+    setCurrentIndex((prev) => (prev <= 0 ? maxIndex : prev - 1));
+  }, [maxIndex]);
 
   useEffect(() => {
-    if (!isAutoPlaying) return
+    if (!isAutoPlaying) return;
 
     const interval = setInterval(() => {
-      nextSlide()
-    }, 4000)
+      nextSlide();
+    }, 4000);
 
-    return () => clearInterval(interval)
-  }, [isAutoPlaying, nextSlide])
+    return () => clearInterval(interval);
+  }, [isAutoPlaying, nextSlide]);
 
-  const handleMouseEnter = () => setIsAutoPlaying(false)
-  const handleMouseLeave = () => setIsAutoPlaying(true)
+  const handleMouseEnter = () => setIsAutoPlaying(false);
+  const handleMouseLeave = () => setIsAutoPlaying(true);
 
   return (
     <section id="testimony" className="py-20 px-4 bg-slate-700 text-gray-200">
@@ -73,11 +73,16 @@ export function TestimonySection() {
           </h2>
           <div className="w-1/3 h-1 bg-gradient-to-r from-orange-500 to-secondary rounded-full mx-auto mb-8"></div>
           <p className="text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed text-pretty">
-            Testimonials from colleagues, mentors, and clients I&apos;ve had the privilege to work with throughout my career.
+            Testimonials from colleagues, mentors, and clients I&apos;ve had the
+            privilege to work with throughout my career.
           </p>
         </div>
 
-        <div className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <div
+          className="relative"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
           {/* Prev Button (desktop only) */}
           <div className="absolute left-0 top-1/2 -translate-y-1/2 z-10 hidden lg:block">
             <button
@@ -103,12 +108,18 @@ export function TestimonySection() {
             <div
               className="flex transition-transform duration-500 ease-in-out items-stretch"
               style={{
-                transform: `translateX(-${currentIndex * (100 / itemsPerView)}%)`,
+                transform: `translateX(-${
+                  currentIndex * (100 / itemsPerView)
+                }%)`,
               }}
             >
               {!isMounted
                 ? Array.from({ length: 3 }).map((_, i) => (
-                    <div key={i} className="flex-shrink-0 px-2 lg:px-3" style={{ width: `${100 / 3}%` }}>
+                    <div
+                      key={i}
+                      className="flex-shrink-0 px-2 lg:px-3"
+                      style={{ width: `${100 / 3}%` }}
+                    >
                       <Card className="h-[320px] flex flex-col w-full">
                         <CardContent className="p-6 flex flex-col h-full gap-4">
                           <div className="flex items-center gap-4">
@@ -153,7 +164,9 @@ export function TestimonySection() {
                           <div className="flex items-center gap-4 mb-4">
                             <div className="relative">
                               <Image
-                                src={person.image || "/images/placeholder-user.jpg"}
+                                src={
+                                  person.image || "/images/placeholder-user.jpg"
+                                }
                                 alt={person.name}
                                 width={60}
                                 height={60}
@@ -161,14 +174,18 @@ export function TestimonySection() {
                               />
                             </div>
                             <div className="flex-grow">
-                              <h3 className="font-semibold text-lg">{person.name}</h3>
-                              <p className="text-sm text-muted-foreground">{person.designation}</p>
+                              <h3 className="font-semibold text-lg">
+                                {person.name}
+                              </h3>
+                              <p className="text-sm text-muted-foreground">
+                                {person.designation}
+                              </p>
                               {person.linkedin && (
                                 <a
                                   href={person.linkedin}
                                   target="_blank"
                                   rel="noopener noreferrer"
-                                  className="inline-flex items-center gap-1 text-primary hover:underline text-sm mt-1 text-orange-500"
+                                  className="inline-flex items-center gap-1 hover:underline text-base mt-1 text-blue-500"
                                 >
                                   <Linkedin className="h-3 w-3" />
                                   LinkedIn
@@ -178,13 +195,15 @@ export function TestimonySection() {
                           </div>
 
                           <div className="relative flex-grow flex flex-col">
-                            <Quote className="h-6 w-6 text-orange-300 absolute -top-2 -left-" />
+                            {/* Quote pembuka */}
+                            <Quote className="h-6 w-6 text-orange-300 absolute -top-2 -left-0" />
+
                             <div className="pl-4 flex-grow overflow-y-auto">
                               <div className="text-sm text-muted-foreground leading-relaxed pr-2">
-                                {parseBold(person.review)} <Quote className="h-6 w-6 text-orange-300" />
+                                {parseBold(person.review)}{" "}
+                                <Quote className="inline-block h-6 w-6 text-orange-300" />
                               </div>
                             </div>
-                            
                           </div>
                         </CardContent>
                       </Card>
@@ -210,5 +229,5 @@ export function TestimonySection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
