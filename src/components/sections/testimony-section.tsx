@@ -196,12 +196,15 @@ export function TestimonySection() {
 
                           <div className="relative flex-grow flex flex-col">
                             {/* Quote pembuka */}
-                            <Quote className="h-6 w-6 text-orange-300 absolute -top-2 -left-0" />
+                            <Quote className="h-6 w-6 text-orange-300 absolute -top-0 -left-0" />
 
                             <div className="pl-4 flex-grow overflow-y-auto">
-                              <div className="text-sm text-muted-foreground leading-relaxed pr-2">
-                                {parseBold(person.review)}{" "}
-                                <Quote className="inline-block h-6 w-6 text-orange-300" />
+                              <div className="text-sm text-muted-foreground leading-relaxed pr-2 text-justify">
+                                <p className="indent-4 mt-2">
+                                  {parseBold(person.review)}
+                                  <Quote className="ml-2 inline-block h-6 w-6 text-orange-300" />
+                                </p>
+                                
                               </div>
                             </div>
                           </div>
