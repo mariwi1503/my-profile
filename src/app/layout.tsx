@@ -88,6 +88,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${nunito.variable} antialiased`}>
       <head>
+        <meta name="msvalidate.01" content="C60A35A3E889CB1C17398FC0AA243699" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
