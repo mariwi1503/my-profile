@@ -11,7 +11,7 @@ const nunito = Nunito({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.muhammad-ary.my.id"),
-  title: "Muhammad Ary Widodo - Backend Developer Portfolio",
+  title: "Muhammad Ary Widodo - Backend Developer",
   description:
     "Experienced Backend Developer specializing in Node.js, NestJS, and scalable API development. Building secure, efficient systems for digital transformation.",
   keywords: [
@@ -99,7 +99,7 @@ export default function RootLayout({
               jobTitle: "Backend Developer",
               description:
                 "Experienced Backend Developer specializing in Node.js, NestJS, and scalable API development",
-              url: "https://arywidodo.dev",
+              url: "https://www.muhammad-ary.my.id",
               sameAs: ["https://github.com/arywidodo", "https://linkedin.com/in/arywidodo"],
               knowsAbout: [
                 "Node.js",
