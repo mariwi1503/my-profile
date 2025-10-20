@@ -56,7 +56,7 @@ export function TestimonySection() {
 
     const interval = setInterval(() => {
       nextSlide();
-    }, 4000);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, [isAutoPlaying, nextSlide]);

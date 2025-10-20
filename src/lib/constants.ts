@@ -325,6 +325,14 @@ export const testimonial = [
     image: "/images/syarif.jpeg",
   },
   {
+    name: "Haris Wahyudi",
+    review:
+      "I’ve seen Ary grow as a Backend Developer through the projects we’ve worked on together. **He is always motivated by the people around him**, and that positive drive shows in the way he contributes and delivers results. Having completed several projects successfully, Ary has proven not only his technical ability but also his consistency and teamwork. A great developer to have on any team.",
+    designation: "Software Engineer",
+    image: "/images/haris.jpeg",
+    linkedin: "https://www.linkedin.com/in/harisw/",
+  },
+  {
     name: "Fajar Ega Firmansyah",
     review:
       "Mas ary merupakan sosok yang pekerja keras serta skill beliau dalam IT dan **memimpin tim** developer sangat baik.",
