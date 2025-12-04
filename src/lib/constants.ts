@@ -123,11 +123,14 @@ export const experienceList: IExperience[] = [
     description:
       'The International Centre for Industrial Transformation, or INCIT (pronounced as "insight"), is an Environmental, Social, and Governance (ESG) institution which champions manufacturing transformation. I joined INCIT as a backend developer in October 2022 and have been working there ever since. Upon joining, I immediately took charge of several projects built from scratch through to production, collaborating with other developers and designers on the team.',
     responsibilities: [
-      "Write clean, readable, and reusable code.",
-      "Develop backend aplication for new project or features along with Product Manager",
-      "Build scalable and reliable APIs.",
-      "Design Database and create open-API for incoming project",
-      "Collaborate with Front-end developers to integrate user-facing elements with server-side logic.",
+      "Build and maintain solid, scalable backend applications to support both web and mobile platforms.",
+      "Design and manage clean, efficient, and well-structured databases.",
+      "Create and maintain API documentation for easy integration and understanding by frontend teams or third parties.",
+      "Conduct Proof of Concept (PoC) evaluations for third-party technologies to assess their feasibility for integration.",
+      "Responsible for integrating the Gemini LLM into the backend application",
+      "Develop core business logic and calculation functions that power key company products.",
+      "Provide cross-team technical support, occasionally assisting with minor frontend tasks when needed.",
+      "Maintain code quality and system performance, including refactoring when necessary."
     ],
   },
   {
@@ -145,15 +148,14 @@ export const experienceList: IExperience[] = [
     description:
       "PT Ruang Solusi Internusa is a local startup company engaged in the technology and information sector. I joined RSI as a working partner, handling client projects alongside a development team consisting of UI/UX designers and several developers. I led the team through to project completion and am still actively providing solutions and advice to RSI in the context of software development.",
     responsibilities: [
-      "Lead the engineering team.",
-      "Provide business flow alongs with client request.",
-      "Provide business flow documentation according to client requests.",
-      "Create various documents related to ongoing work.",
-      "Manage project tasks using Trello.",
-      "Lead stand-up meetings.",
-      "Design databases and create OpenAPI specifications for the project.",
-      "Contribute to the backend development.",
-      "Collaborate with other developers to integrate user-facing elements with server-side logic.",
+      "Lead and mentor the development team, providing technical guidance, code reviews, and support for skill development.",
+      "Plan and facilitate team meetings, including sprint planning, daily stand-ups, and retrospective sessions.",
+      "Act as the primary liaison between the development team, brokers, and clients to ensure clear communication and alignment on requirements.",
+      "Translate business requirements into technical solutions, ensuring they meet both functional and non-functional needs.",
+      "Oversee project timelines and deliverables, monitoring progress and addressing blockers to keep the project on track.",
+      "Review and approve key technical decisions, such as architecture design, technology stack selection, and implementation strategies.",
+      "Coordinate with stakeholders to gather feedback, prioritize tasks, and manage expectations throughout the project lifecycle.",
+      "Develop and maintain backend systems, ensuring stability, scalability, and adherence to best practices.",
     ],
   },
   {
@@ -171,10 +173,12 @@ export const experienceList: IExperience[] = [
     description:
       "Super is an application for resellers to sell FMCG goods within their communities. Super empowers community leaders in 2nd tier and 3rd tier cities to become self-made entrepreneurs. I joined Super at the end of 2021 as a backend engineer. The company's IT team is quite large, and I became part of the Vanguard team, which is responsible for developing the company's main product, the Super application itself.",
     responsibilities: [
-      "Write clean, readable, reusable, and testable code.",
-      "Build scalable and reliable APIs.",
-      "Collaborate with Front-end developers to integrate user-facing elements with server-side logic.",
-      "Work closely with product managers and other developers towards the completion of development assigned features.",
+      "Develop RESTful APIs to support frontend applications and ensure smooth data exchange.",
+      "Fix bugs and troubleshoot issues to maintain application stability and reliability.",
+      "Implement new features and enhancements based on project requirements and user feedback.",
+      "Collaborate with senior developers and team members to understand requirements, follow coding standards, and ensure best practices.",
+      "Participate in code reviews and testing to improve code quality and learn from feedback.",
+      "Write clean, maintainable, and well-documented code to ensure ease of future development."
     ],
   },
   {
@@ -191,7 +195,7 @@ export const experienceList: IExperience[] = [
     website: "https://castellumdigital.id/",
     description:
       'Castellum Digital Indonesia (CDI) is a company that focuses on "Health Information System (HIS) Development and Implementation," through the Digital Principles¹ approach and the use of DHIS2 Global Digital Public Good (DPG). I joined CDI as a remote intern while also working as a driver at the time. I only worked here for a month and didn\'t have the opportunity to contribute to any real projects.',
-    responsibilities: ["Exploring typescript", "Design and implement REST Api for frontend developers"],
+    responsibilities: ["Learn and apply TypeScript for building type-safe and maintainable code.", "Develop RESTful APIs to support frontend applications and internal tools."],
   },
 ]
 
