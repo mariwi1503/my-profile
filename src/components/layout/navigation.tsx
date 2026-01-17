@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { navMenu } from "@/lib/constants"
+import { navMenu } from "@/common/constants"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 

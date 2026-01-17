@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Github, Linkedin, Twitter, Instagram } from "lucide-react"
-import { personalInfo } from "@/lib/data"
+import { personalInfo } from "@/common/data"
 
 export function Footer() {
   return (

@@ -225,34 +225,48 @@ export const portfolioList: IProject[] = [
     contribution:
       "working on lighter tasks assigned by the tech leader, such as adjusting API responses and implementing improvements, but I didn't contribute much on the feature side because the application was already quite large when I joined.",
   },
-  // {
-  //   name: "SIRI",
-  //   imagePath: "/portfolio/siri.png",
-  //   description:
-  //     "The Smart Industry Readiness Index (SIRI) is the world’s first independent digital maturity assessment for manufacturers. It comprises a suite of frameworks and tools to help manufacturers – regardless of size and industry – start, scale, and sustain their manufacturing transformation journeys.",
-  //   ownership:
-  //     "This Product is fully owned by INCIT (International Center for Industrial Transformation).",
-  //   techStack: ["Nodejs", "Nest", "Prisma", "PosgreSQL", "React", "Tailwind"],
-  //   role: "Backend Developer",
-  //   status: "live",
-  //   website: "https://siri.incit.org/",
-  //   contribution:
-  //     "building the server-side application that powers the web app, in which I was involved in nearly 80% of all backend features",
-  // },
-  // {
-  //   name: "CoSIRI",
-  //   imagePath: "/portfolio/cosiri.png",
-  //   description:
-  //     "The Consumer Sustainability Industry Readiness Index (COSIRI) is a comprehensive framework and set of tools designed to assist manufacturers, regardless of size or industry, to embed sustainability into all their operations.",
-  //   ownership:
-  //     "This Product is fully owned by INCIT (International Center for Industrial Transformation).",
-  //   techStack: ["Nodejs", "Nest", "Prisma", "PosgreSQL", "React", "Tailwind"],
-  //   role: "Backend Developer",
-  //   status: "live",
-  //   website: "https://cosiri.incit.org/",
-  //   contribution:
-  //     "building the server-side application that powers the web app, where I was involved in over 50% of all backend features",
-  // },
+  {
+    name: "Blok Herba",
+    imagePath: "/portfolio/herba.png",
+    description:
+      "This website is a portal for the residents of Cipta Asri Housing, Herba Block, Tembesi, Sagulung - Batam. It serves as an information hub for residents and a management portal for the Neighborhood Association (RT) officials.",
+    ownership:
+      "This Product is fully owned by me",
+    techStack: ["Nodejs", "NextJS", "Supabase", "Prisma ORM", "Tailwind"],
+    role: "Founder and Developer",
+    status: "Beta",
+    website: "https://blok-herba.vercel.app/",
+    contribution:
+      "building the server-side application that powers the web app, in which I was involved in nearly 80% of all backend features",
+  },
+  {
+    name: "SIRI",
+    imagePath: "/portfolio/siri.png",
+    description:
+      "The Smart Industry Readiness Index (SIRI) is the world’s first independent digital maturity assessment for manufacturers. It comprises a suite of frameworks and tools to help manufacturers – regardless of size and industry – start, scale, and sustain their manufacturing transformation journeys.",
+    ownership:
+      "This Product is fully owned by INCIT (International Center for Industrial Transformation).",
+    techStack: ["Nodejs", "Nest", "Prisma", "PosgreSQL", "React", "Tailwind"],
+    role: "Backend Developer",
+    status: "live",
+    website: "https://siri.incit.org/",
+    contribution:
+      "building the server-side application that powers the web app, in which I was involved in nearly 80% of all backend features",
+  },
+  {
+    name: "CoSIRI",
+    imagePath: "/portfolio/cosiri.png",
+    description:
+      "The Consumer Sustainability Industry Readiness Index (COSIRI) is a comprehensive framework and set of tools designed to assist manufacturers, regardless of size or industry, to embed sustainability into all their operations.",
+    ownership:
+      "This Product is fully owned by INCIT (International Center for Industrial Transformation).",
+    techStack: ["Nodejs", "Nest", "Prisma", "PosgreSQL", "React", "Tailwind"],
+    role: "Backend Developer",
+    status: "live",
+    website: "https://cosiri.incit.org/",
+    contribution:
+      "building the server-side application that powers the web app, where I was involved in over 50% of all backend features",
+  },
   {
     name: "Karakterku",
     imagePath: "/portfolio/karakterku.png",
@@ -278,18 +292,18 @@ export const portfolioList: IProject[] = [
     website: "",
     contribution: "building the server-side application that powers both web and mobile platforms",
   },
-  {
-    name: "Pilkada Sumbawa - NTB 2024",
-    imagePath: "/portfolio/pilkada.png",
-    description:
-      "This website was specifically created for my family and friends who are eagerly awaiting the election results in NTB in 2024.",
-    ownership: "This Product is fully owned by me",
-    techStack: ["Nodejs", "React", "Tailwind"],
-    role: "Developer",
-    status: "beta" as const,
-    website: "https://pilkada-sumbawa-2024.vercel.app/",
-    contribution: "Building the website",
-  },
+  // {
+  //   name: "Pilkada Sumbawa - NTB 2024",
+  //   imagePath: "/portfolio/pilkada.png",
+  //   description:
+  //     "This website was specifically created for my family and friends who are eagerly awaiting the election results in NTB in 2024.",
+  //   ownership: "This Product is fully owned by me",
+  //   techStack: ["Nodejs", "React", "Tailwind"],
+  //   role: "Developer",
+  //   status: "beta" as const,
+  //   website: "https://pilkada-sumbawa-2024.vercel.app/",
+  //   contribution: "Building the website",
+  // },
   {
     name: "Bale Ballon",
     imagePath: "/portfolio/bale.png",

@@ -7,7 +7,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
-import { experienceList } from "@/lib/constants";
+import { experienceList } from "@/common/constants";
 import { ExternalLink } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";

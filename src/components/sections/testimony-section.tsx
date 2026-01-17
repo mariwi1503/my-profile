@@ -2,7 +2,7 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
-import { testimonial } from "@/lib/constants";
+import { testimonial } from "@/common/constants";
 import { Linkedin, Quote, ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 import { useState, useEffect, useCallback } from "react";

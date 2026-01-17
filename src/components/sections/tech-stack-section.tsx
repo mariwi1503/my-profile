@@ -1,5 +1,5 @@
 // import { Card, CardContent } from "@/components/ui/card";
-import { stackItem } from "@/lib/constants";
+import { stackItem } from "@/common/constants";
 // import Image from "next/image";
 import StackCard from "../StackCard";
 

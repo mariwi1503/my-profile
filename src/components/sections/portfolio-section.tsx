@@ -8,7 +8,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
-import { portfolioList } from "@/lib/constants";
+import { portfolioList } from "@/common/constants";
 import { ExternalLink, Lock, ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 import { useState, useEffect } from "react";
