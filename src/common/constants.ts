@@ -234,10 +234,24 @@ export const portfolioList: IProject[] = [
       "This Product is fully owned by me",
     techStack: ["Nodejs", "NextJS", "Supabase", "Prisma ORM", "Tailwind"],
     role: "Founder and Developer",
-    status: "Beta",
+    status: "Demo",
     website: "https://blok-herba.vercel.app/",
     contribution:
-      "building the server-side application that powers the web app, in which I was involved in nearly 80% of all backend features",
+      "Building the website",
+  },
+  {
+    name: "Ikasum Batam",
+    imagePath: "/portfolio/ikasum.png",
+    description:
+      "The Ikasum website serves as an information-sharing platform and a database for Sumbawa residents living in Batam, designed to streamline coordination and strengthen community bonds.",
+    ownership:
+      "This Product is fully owned by me",
+    techStack: ["Nodejs", "NextJS", "Tailwind"],
+    role: "Founder and Developer",
+    status: "Demo",
+    website: "https://ikasum.vercel.app/",
+    contribution:
+      "Building the website",
   },
   {
     name: "SIRI",
