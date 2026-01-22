@@ -43,7 +43,7 @@ export function HeroCsr() {
         >
           <Instagram />
         </a>
-        <a
+        {/* <a
           href="https://www.linkedin.com/in/muhammad-ary-687552209/"
           target="_blank"
           rel="noopener noreferrer"
@@ -51,7 +51,7 @@ export function HeroCsr() {
           aria-label="LinkedIn Profile"
         >
           <Linkedin />
-        </a>
+        </a> */}
         <a
           href="https://discord.com/users/834295200931250216"
           target="_blank"

@@ -115,7 +115,7 @@ export const experienceList: IExperience[] = [
     role: "Backend Developer",
     job: "Fulltime",
     start: "Oct 2022",
-    end: "Present",
+    end: "Oct 2025",
     location: "Remote",
     city: "Singapore",
     country: "Singapore",
