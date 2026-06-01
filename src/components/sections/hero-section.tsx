@@ -10,11 +10,11 @@ export function HeroSection() {
         <div className="relative mb-16">
           <div className="absolute inset-0 bg-gradient-to-r from-orange-500 to-secondary rounded-full blur-lg opacity-30 scale-110 animate-pulse"></div>
           <Image
-            src="/images/cover.png"
+            src="/images/cover2.png"
             alt="Muhammad Ary Widodo - Backend Developer"
-            width={200}
-            height={200}
-            className="relative rounded-full mx-auto animate-float"
+            width={130}
+            height={130}
+            className="relative rounded-[70px] mx-auto animate-float"
             priority
           />
         </div>
@@ -25,7 +25,7 @@ export function HeroSection() {
         </h1>
 
         <p className="text-xl sm:text-2xl md:text-3xl text-gray-200 mb-6 animate-fadeIn">
-          Backend Developer
+          Software Developer
         </p>
 
         <p className="text-base sm:text-lg md:text-xl text-gray-200 max-w-3xl mx-auto md:mb-8 leading-relaxed animate-fadeIn text-pretty">

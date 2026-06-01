@@ -89,7 +89,6 @@ export function ExperienceSection() {
             //     </div>
             //   </CardHeader>
             // </Card>
-
             <div
               className="relative flex p-2 bg-gray-200 rounded-lg w-full h-50 hover:cursor-pointer transform transition-all duration-300 ease-in-out hover:scale-105 active:scale-95"
               onClick={() => openModal(exp)}

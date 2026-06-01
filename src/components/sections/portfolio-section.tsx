@@ -104,7 +104,7 @@ export function PortfolioSection() {
                 style={{
                   transform: `translateX(-${currentIndex * 100}%)`,
                 }}
-              >
+                >
                 {portfolioList.map((project, index) => (
                   <div key={index} className="flex-shrink-0 w-full px-4">
                     {/* <Card
@@ -223,7 +223,6 @@ export function PortfolioSection() {
               //     </p>
               //   </CardContent>
               // </Card>
-
               <div
                 key={index + 1}
                 className="w-full bg-secondary p-4 rounded-lg hover:scale-105 active:scale-95 hover:cursor-pointer"

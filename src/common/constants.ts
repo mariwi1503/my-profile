@@ -98,6 +98,10 @@ export const stackItem = [
     image: "/icon/prisma.png",
   },
   {
+    name: "Android",
+    image: "/icon/android.png",
+  },
+  {
     name: "Vite",
     image: "/icon/vite.png",
   },
@@ -115,7 +119,7 @@ export const experienceList: IExperience[] = [
     role: "Backend Developer",
     job: "Fulltime",
     start: "Oct 2022",
-    end: "Oct 2025",
+    end: "Present",
     location: "Remote",
     city: "Singapore",
     country: "Singapore",
@@ -131,6 +135,29 @@ export const experienceList: IExperience[] = [
       "Develop core business logic and calculation functions that power key company products.",
       "Provide cross-team technical support, occasionally assisting with minor frontend tasks when needed.",
       "Maintain code quality and system performance, including refactoring when necessary."
+    ],
+  },
+  {
+    logo: "/images/experience/tmt.png",
+    isActive: false,
+    company: "PT Trimitra Mandiri Teknologi",
+    role: "Head of Development",
+    job: "Parttime",
+    start: "Feb 2026",
+    end: "Present",
+    location: "Remote",
+    city: "Jakarta",
+    country: "Indonesia",
+    website: "https://trimitra-teknologi.co.id/",
+    description:
+      "TMT (PT Trimitra Mandiri Teknologi) is a trusted ICT Solution partner committed to continuous growth and delivering maximum contribution to our partners' independence in this rapidly evolving digital and application landscape. We offer a comprehensive suite of services, including Infrastructure Solutions, Software Solutions, Computer & Office Tools Rental, Managed Telecommunication Services, Implementation & Maintenance Services, and custom Development.",
+    responsibilities: [
+      "Product Prototyping: Designing interactive high-fidelity mockups and prototypes for mobile and web applications to be presented to clients.",
+      "Database Architecture & Management: Designing database schemas and managing data structures to ensure optimal application performance.",
+      "Full-Stack Engineering: Taking full ownership of end-to-end development, covering both backend logic and frontend implementation.",
+      "Technical Documentation: Authoring essential project documents, including Scope of Work (SoW), Final Requirements, and technical specifications.",
+      "Technical Recruitment: Leading the hiring process by sourcing and interviewing additional candidates when project scaling is required.",
+      "End-to-End Project Ownership: Managing the entire software development life cycle (SDLC) as the primary developer and technical lead",
     ],
   },
   {
@@ -200,6 +227,18 @@ export const experienceList: IExperience[] = [
 ]
 
 export const portfolioList: IProject[] = [
+  {
+    name: "Halo Trubus",
+    imagePath: "/portfolio/trubus.png",
+    description: "This app is an online consultation platform with agricultural experts, featuring an online marketplace and a hub for engaging articles.",
+    ownership: "This Product is fully owned by Toko Trubus",
+    status: "beta" as const,
+    techStack: ["Typescript", "NestJS", "Node.js", "React Native", "Midtrans", "Qiscus", "Prisma ORM", "Raja Ongkir"],
+    role: "Product Engineer",
+    website: "https://portal.tokotrubus.com/",
+    contribution:
+      "I drove the entire Software Development Life Cycle (SDLC)—from initial prototyping and architecture design to final production release.",
+  },
   {
     name: "Hulu Cash",
     imagePath: "/portfolio/hulucash.png",

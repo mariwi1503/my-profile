@@ -1,7 +1,7 @@
 "use client"; // ✅ Wajib agar ini Client Component
 
 import { Button } from "@/components/ui/button";
-import { MessageCircle, Instagram, Linkedin } from "lucide-react";
+import { MessageCircle, Instagram } from "lucide-react";
 import { RiDiscordLine } from "react-icons/ri";
 
 export function HeroCsr() {

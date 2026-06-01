@@ -21,13 +21,13 @@ export function TechStackSection() {
         </div>
 
         <div className="px-5 mt-5 grid grid-cols-3 md:grid-cols-8 gap-3">
-        {stackItem.map((stack, index) => (
-          <div className="mx-auto" key={index}>
-            <StackCard image={stack.image} />
-            <p className="text-center">{stack.name}</p>
-          </div>
-        ))}
-      </div>
+          {stackItem.map((stack, index) => (
+            <div className="mx-auto" key={index}>
+              <StackCard image={stack.image} />
+              <p className="text-center">{stack.name}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

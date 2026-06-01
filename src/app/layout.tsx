@@ -122,7 +122,7 @@ export default function RootLayout({
         {children}
         {/* Footer */}
         <div className="text-center mt-16 py-8 border-t border-border bg-slate-700">
-          <p className="">© 2025 Muhammad Ary Widodo</p>
+          <p className="">© 2026 Muhammad Ary Widodo</p>
         </div>
       </body>
     </html>

@@ -1,8 +1,20 @@
-import { Globe, Database, Server, FileText } from "lucide-react";
+import { Globe, Database, Server, FileText, Smartphone } from "lucide-react";
 import VideoStory from "../VideoStory";
 import { Card, CardContent } from "../ui/card";
 
 const highlights = [
+  {
+    icon: <Globe className="h-8 w-8" />,
+    title: "Website",
+    description:
+      "Building modern, responsive websites with cutting-edge technologies",
+  },
+  {
+    icon: <Smartphone className="h-8 w-8" />,
+    title: "Mobile Apps",
+    description:
+      "Developing responsive mobile applications with a focus on performance and usability",
+  },
   {
     icon: <Server className="h-8 w-8" />,
     title: "API Development",
@@ -13,12 +25,6 @@ const highlights = [
     title: "Database Design",
     description:
       "Skilled in SQL and NoSQL database architecture and optimization",
-  },
-  {
-    icon: <Globe className="h-8 w-8" />,
-    title: "Website",
-    description:
-      "Building modern, responsive websites with cutting-edge technologies",
   },
   {
     icon: <FileText className="h-8 w-8" />,
@@ -52,12 +58,8 @@ export function SummarySection() {
               until I discovered my passion for programming that I decided to
               pursue it as a career.
               <br />
-              <br />I am a passionate and results-driven Backend Developer with
-              a solid foundation in Node.js, specializing in Express.js and
-              NestJS. In addition to backend expertise, I also possess Frontend
-              development skills using HTML, CSS, JavaScript, React, and
-              Next.js, allowing me to contribute across the full stack when
-              needed.
+              <br />I am a dedicated and versatile Software Developer with experience in building, maintaining, and scaling web-based applications across diverse industries. My background covers both frontend and backend development, enabling me to contribute throughout the entire software development lifecycle, from system design and implementation to deployment and maintenance.
+              <br />
               <br />
               Beyond technical proficiency, I have proven experience in leading
               and managing teams, coordinating development processes, and
@@ -76,12 +78,8 @@ export function SummarySection() {
               until I discovered my passion for programming that I decided to
               pursue it as a career.
               <br />
-              <br />I am a passionate and results-driven Backend Developer with
-              a solid foundation in Node.js, specializing in Express.js and
-              NestJS. In addition to backend expertise, I also possess Frontend
-              development skills using HTML, CSS, JavaScript, React, and
-              Next.js, allowing me to contribute across the full stack when
-              needed.
+              <br />I am a dedicated and versatile Software Developer with experience in building, maintaining, and scaling web-based applications across diverse industries. My background covers both frontend and backend development, enabling me to contribute throughout the entire software development lifecycle, from system design and implementation to deployment and maintenance.
+              <br />
               <br />
               Beyond technical proficiency, I have proven experience in leading
               and managing teams, coordinating development processes, and
@@ -107,7 +105,7 @@ export function SummarySection() {
           <h3 className="text-3xl sm:text-4xl font-medium mb-6">
             Specialization
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
             {highlights.map((item, index) => (
               <Card
                 key={index}
@@ -118,7 +116,7 @@ export function SummarySection() {
                     {item.icon}
                   </div>
                   <h3 className="text-xl font-semibold mb-3">{item.title}</h3>
-                  <p className="text-slate-800 text-sm leading-relaxed">
+                  <p className="hidden md:block text-slate-800 text-sm leading-relaxed">
                     {item.description}
                   </p>
                 </CardContent>
