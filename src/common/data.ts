@@ -8,7 +8,7 @@ export const personalInfo = {
   avatar: "/images/cover.png",
   social: {
     github: "https://github.com/arywidodo",
-    linkedin: "https://linkedin.com/in/arywidodo",
+    linkedin: "https://www.linkedin.com/in/muhammad-ary-687552209/",
     twitter: "https://twitter.com/arywidodo",
     instagram: "https://instagram.com/arywidodo",
   },

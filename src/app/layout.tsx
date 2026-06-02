@@ -47,8 +47,8 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.jpg",
   },
   openGraph: {
-    title: "Muhammad Ary Widodo - Backend Developer Portfolio",
-    description: "Experienced Backend Developer specializing in Node.js, NestJS, and scalable API development.",
+    title: "Muhammad Ary Widodo - Software Developer",
+    description: "Experienced Software Developer.",
     url: "https://www.muhammad-ary.my.id",
     siteName: "Ary Widodo Portfolio",
     locale: "en_US",
@@ -58,14 +58,14 @@ export const metadata: Metadata = {
         url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Muhammad Ary Widodo - Backend Developer Portfolio",
+        alt: "Muhammad Ary Widodo - Software Developer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Muhammad Ary Widodo - Backend Developer Portfolio",
-    description: "Experienced Backend Developer specializing in Node.js, NestJS, and scalable API development.",
+    title: "Muhammad Ary Widodo - Software Developer",
+    description: "Experienced Software Developer.",
     images: ["/images/og-image.jpg"],
   },
   robots: {
